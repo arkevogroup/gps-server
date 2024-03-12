@@ -1,0 +1,20 @@
+{
+    "main": "app.js",
+    "dependencies": {
+        "@turf/turf": "^6.5.0",
+        "body-parser": "^1.20.2",
+        "chalk": "^5.3.0",
+        "complete-teltonika-parser-fork": "^0.3.8",
+        "dotenv": "^16.4.3",
+        "express": "^4.18.2",
+        "express-async-handler": "^1.2.0",
+        "express-fileupload": "^1.4.3",
+        "fs": "^0.0.1-security",
+        "joi": "^17.12.1",
+        "mongoose": "^8.1.2",
+        "net": "^1.0.2",
+        "node-xlsx": "^0.23.0",
+        "nodemon": "^3.0.3"
+    },
+    "type": "module"
+}
