@@ -1,10 +1,15 @@
-import mongoose, { mongo } from "mongoose";
+//import { bool, boolean } from "joi";
+import mongoose from "mongoose";
 
 const gpsSchema = mongoose.Schema({
         imei : {
             type : String,
             required : true,
             unique : true
+        },
+        backup_imei :{
+            type : String,
+            required : true
         },
         device_id : {
             type: mongoose.Schema.Types.ObjectId, ref: 'Device'

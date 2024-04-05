@@ -12,7 +12,13 @@ const createNewGpsValidator = Joi.object({
         .required()
         .messages({
             'any.required': 'Device field is required!'
-        })
+        }),
+    backup_imei: Joi.string()
+        .min(15)
+        .max(15)
+        .messages({
+            'any': 'backup_imei invalid!'
+        }),
 })
 
 const createNewCommandValidator = Joi.object({

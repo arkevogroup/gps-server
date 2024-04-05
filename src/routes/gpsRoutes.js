@@ -1,6 +1,6 @@
 import express from "express";
 const router = express.Router();
-import { createNewGps, createNewCommand, getAllCommands, getAllAvailableDevices, sendCommandTeltonika } from "../controllers/gpsController.js";
+import { createNewGps, createNewCommand, getAllCommands, getAllAvailableDevices, sendCommandTeltonika, traccar } from "../controllers/gpsController.js";
 import { protect } from "../middleware/authMiddleware.js";
 
 
@@ -24,4 +24,7 @@ router
     .route("/teltonika/sendcommand")
     .post(protect, sendCommandTeltonika);
 
+router
+    .route("/traccar")
+    .post(protect, traccar);
 export default router;
