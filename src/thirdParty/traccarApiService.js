@@ -33,7 +33,7 @@ const fromTraccarData = asyncHandler(async (req, res) => {
         totalDistance,
         motion,
         hours,
-        longitude,
+        longitude, 
         latitude,
       };
 
