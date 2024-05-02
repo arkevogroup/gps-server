@@ -7,6 +7,8 @@ import {
   createNewCommandValidator,
   sendCommandValidator,
 } from "./validators/gpsApiValidator.js";
+import fs from "fs";
+import device_protocol_type from "../utils/portChecker.js";
 
 // @desc store new device
 // @route POST /api/gps/store
@@ -14,24 +16,37 @@ import {
 const createNewGps = asyncHandler(async (req, res) => {
   try {
     const data = await createNewGpsValidator.validateAsync(req.body);
+    
     let checkAllowedDevicesIds = await DeviceModel.findOne({
-      _id: data.device_id,
+      device_id: data.device_id, 
     });
-    if (checkAllowedDevicesIds === null) {
-      res.status(404).json({ message: "This device id does not exist!" });
-      return;
+
+    if (!checkAllowedDevicesIds) {
+      res.status(400).json({ message: "This device is not in allowed devices!" });
+    }
+    
+    let gps_model;
+    
+    // Case 1: Device is Teltonika
+    if (data.protocol === "teltonika") {
+      const dev_port = await device_protocol_type(data.protocol);
+      gps_model = {
+        name: data.gps_name,
+        imei: data.imei,
+        protocol: data.protocol,
+        device_id: data.device_id,
+        backup_imei: data.backup_imei,
+      };
+      
+      res.status(201).json({ message: "teltonika gps", port: dev_port });
     }
 
-    const gps = new GpsModel({
-      imei: data.imei,
-      device_id: data.device_id,
-      backup_imei: data.backup_imei
-    });
-
+    // Case 2: Device is not Teltonika
+    let gps = new GpsModel(gps_model);
     const createdGps = await gps.save();
 
     let response = {
-      message: `GPS device with imei: ${createdGps.imei} was added sucessfully!`,
+      message: `GPS device with imei: ${createdGps.imei} was added successfully!`,
       data: createdGps,
     };
 
@@ -51,6 +66,14 @@ const createNewGps = asyncHandler(async (req, res) => {
     }
   }
 });
+
+
+async function post_to_traccar(data) {
+  try {
+  } catch (err) {
+    console.error(err);
+  }
+}
 
 // @desc store new device
 // @route POST /api/gps/command/store
@@ -185,28 +208,18 @@ const sendCommandTeltonika = asyncHandler(async (req, res) => {
   }
 });
 
-
 const traccar = asyncHandler(async (req, res) => {
-    try{
-
-    }
-    catch (error) {
-      let response;
-      response = {
-        message: error.details ? error.details[0].message : error.message,
-      };
-      res.status(400).json(response);
-    }
-})
-
+  try {
+  } catch (error) {
+    let response;
+    response = {
+      message: error.details ? error.details[0].message : error.message,
+    };
+    res.status(400).json(response);
+  }
+});
 
 //modelet e GPS bashk me porten, => getAllCommands dhe createNewCommand me id e modelit te GPS
-
-
-
-
-
-
 
 export {
   createNewGps,

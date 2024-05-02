@@ -1,6 +1,15 @@
 import Joi from "joi";
 
 const createNewGpsValidator = Joi.object({
+    gps_name: Joi.string()
+        .required()
+        .messages({
+            'any.required': 'gps_name field is required!'
+    }),
+    protocol: Joi.string()
+        .messages({
+            'any.required': 'protocol field is required!'
+        }),
     imei: Joi.string()
         .min(15)
         .max(15)

@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 import { config } from 'dotenv';
 import { successCol, errorCol }  from "../../utils/messageColors.js"
 import fs from 'fs';
-import writeLog from "../writeLog.js";
+import writeLog from "../../utils/writeLog.js";
 
 config();
 
@@ -12,7 +12,7 @@ const connectDB = async () =>{
     try {
         const conn = await mongoose.connect(dburl, {});
         console.log(successCol(`MongoDB Connected : ${conn.connection.host}`));
-        writeLog(`MongoDB Connected : ${conn.connection.host}`);
+        writeLog(`MongoDB Connected : ${conn.connection.host}\n-----------------------------`);
     } catch (error) {
         console.error(errorCol(`Error : ${error.message}`));
         writeLog(error);

@@ -1,0 +1,945 @@
+2024-04-26T12:11:56.330Z - 
+Server started on port 8088
+2024-04-26T12:11:56.332Z - Listening on port 5711
+2024-04-26T12:11:56.368Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-26T12:11:59.523Z - 
+Server started on port 8088
+2024-04-26T12:11:59.524Z - Listening on port 5711
+2024-04-26T12:11:59.554Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-26T12:12:25.853Z - device is not defined
+2024-04-26T12:12:26.390Z - device is not defined
+2024-04-26T12:12:56.396Z - device is not defined
+2024-04-26T12:13:24.404Z - device is not defined
+2024-04-26T12:14:25.324Z - device is not defined
+2024-04-26T12:14:25.333Z - device is not defined
+2024-04-26T12:14:25.500Z - device is not defined
+2024-04-26T12:14:26.124Z - device is not defined
+2024-04-26T12:14:31.939Z - 
+Server started on port 8088
+2024-04-26T12:14:31.945Z - Listening on port 5711
+2024-04-26T12:14:31.969Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-26T12:14:56.721Z - device is not defined
+2024-04-26T12:15:20.011Z - 
+Server started on port 8088
+2024-04-26T12:15:20.014Z - Listening on port 5711
+2024-04-26T12:15:20.034Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-26T12:15:27.836Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:15:27.837Z - filtereddata is not defined
+2024-04-26T12:16:25.922Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:16:25.923Z - filtereddata is not defined
+2024-04-26T12:16:26.752Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T12:16:26.755Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T12:16:26.759Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T12:16:26.763Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T12:16:26.782Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T12:16:26.784Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T12:16:27.464Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T12:16:28.118Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T12:16:29.194Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T12:16:29.809Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T12:16:30.482Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T12:16:31.683Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T12:16:32.299Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T12:16:32.903Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T12:16:33.886Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T12:16:33.889Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T12:16:33.891Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T12:16:33.894Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T12:16:33.898Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T12:16:33.901Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T12:16:33.909Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T12:16:33.912Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T12:17:03.882Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:17:03.884Z - filtereddata is not defined
+2024-04-26T12:19:02.283Z - 
+Server started on port 8088
+2024-04-26T12:19:02.288Z - Listening on port 5711
+2024-04-26T12:19:02.313Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-26T12:19:08.649Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:19:09.038Z - Data sent to Laravel
+2024-04-26T12:20:04.535Z - 
+Server started on port 8088
+2024-04-26T12:20:04.537Z - Listening on port 5711
+2024-04-26T12:20:04.561Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-26T12:20:30.021Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:20:30.081Z - Data sent to Laravel
+2024-04-26T12:20:30.641Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T12:21:01.286Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:21:01.295Z - Data sent to Laravel
+2024-04-26T12:21:35.158Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:21:35.167Z - Data sent to Laravel
+2024-04-26T12:22:27.411Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:22:27.434Z - Data sent to Laravel
+2024-04-26T12:22:28.091Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T12:22:44.355Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:22:44.370Z - Data sent to Laravel
+2024-04-26T12:22:59.450Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:22:59.462Z - Data sent to Laravel
+2024-04-26T12:23:41.927Z - 
+Server started on port 8088
+2024-04-26T12:23:41.929Z - Listening on port 5711
+2024-04-26T12:23:41.957Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-26T12:23:44.344Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:23:44.418Z - Data sent to Laravel
+2024-04-26T12:24:26.809Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:24:26.821Z - Data sent to Laravel
+2024-04-26T12:24:27.411Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:24:27.445Z - Data sent to Laravel
+2024-04-26T12:24:38.817Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:24:38.823Z - Data sent to Laravel
+2024-04-26T12:24:51.921Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:24:51.926Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:24:51.936Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:24:51.942Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:24:51.947Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:24:51.953Z - Data sent to Laravel
+2024-04-26T12:24:51.956Z - Data sent to Laravel
+2024-04-26T12:24:51.959Z - Data sent to Laravel
+2024-04-26T12:24:51.962Z - Data sent to Laravel
+2024-04-26T12:24:51.965Z - Data sent to Laravel
+2024-04-26T12:24:52.866Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:24:52.871Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:24:52.878Z - Data sent to Laravel
+2024-04-26T12:24:52.880Z - Data sent to Laravel
+2024-04-26T12:24:53.741Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:24:53.747Z - Data sent to Laravel
+2024-04-26T12:24:54.399Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:24:54.406Z - Data sent to Laravel
+2024-04-26T12:24:55.071Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:24:55.076Z - Data sent to Laravel
+2024-04-26T12:24:55.700Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:24:55.707Z - Data sent to Laravel
+2024-04-26T12:24:56.355Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:24:56.360Z - Data sent to Laravel
+2024-04-26T12:24:56.968Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:24:56.974Z - Data sent to Laravel
+2024-04-26T12:24:57.581Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:24:57.586Z - Data sent to Laravel
+2024-04-26T12:24:58.982Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:24:58.996Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:24:59.002Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:24:59.005Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:24:59.009Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:24:59.019Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:24:59.027Z - Data sent to Laravel
+2024-04-26T12:24:59.036Z - Data sent to Laravel
+2024-04-26T12:24:59.040Z - Data sent to Laravel
+2024-04-26T12:24:59.041Z - Data sent to Laravel
+2024-04-26T12:24:59.042Z - Data sent to Laravel
+2024-04-26T12:24:59.045Z - Data sent to Laravel
+2024-04-26T12:25:28.725Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:25:28.733Z - Data sent to Laravel
+2024-04-26T12:30:44.613Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:30:44.625Z - Data sent to Laravel
+2024-04-26T12:31:45.066Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:31:45.076Z - Data sent to Laravel
+2024-04-26T12:33:17.770Z - 
+Server started on port 8088
+2024-04-26T12:33:17.772Z - Listening on port 5711
+2024-04-26T12:33:17.795Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-26T12:36:27.671Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:36:28.692Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:36:28.720Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:36:57.940Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:38:21.767Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:38:27.817Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:38:28.463Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:38:36.250Z - read ECONNRESET
+2024-04-26T12:38:55.263Z - 
+Server started on port 8088
+2024-04-26T12:38:55.265Z - Listening on port 5711
+2024-04-26T12:38:55.290Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-26T12:39:00.201Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:39:37.054Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:44:31.977Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:44:32.625Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:45:02.755Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:45:10.922Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:47:37.879Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:48:29.524Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:48:30.157Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:48:38.860Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:49:01.201Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:49:40.860Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:50:59.306Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:50:59.313Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:50:59.317Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:50:59.321Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:50:59.335Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:50:59.340Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:50:59.345Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:50:59.352Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:52:29.331Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:52:30.218Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:53:01.594Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:53:11.064Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:53:11.072Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:54:29.418Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:54:30.040Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:54:59.845Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:55:19.032Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:56:12.699Z - 
+Server started on port 8088
+2024-04-26T12:56:12.701Z - Listening on port 5711
+2024-04-26T12:56:12.725Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-26T12:58:30.349Z - Data for fmc150 registered to database
+2024-04-26T12:58:30.824Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:59:01.226Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:59:12.218Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T12:59:38.146Z - 
+Server started on port 8088
+2024-04-26T12:59:38.148Z - Listening on port 5711
+2024-04-26T12:59:38.178Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-26T13:02:33.222Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T13:02:33.764Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T13:02:34.162Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T13:02:34.188Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T13:02:34.274Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T13:02:34.289Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T13:02:34.309Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T13:02:34.333Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T13:02:35.260Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T13:02:35.964Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T13:02:36.723Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T13:02:36.750Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T13:02:37.463Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T13:02:38.159Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T13:02:38.848Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T13:02:39.540Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T13:02:40.220Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T13:02:41.133Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T13:02:41.147Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T13:02:41.167Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T13:02:41.181Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T13:02:41.197Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T13:02:41.212Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T13:02:41.295Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T13:02:48.858Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T13:02:48.861Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T13:03:11.634Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T13:04:00.892Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T13:07:12.933Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T13:08:31.422Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T13:08:31.988Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T13:09:02.265Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T13:10:14.168Z - 
+Server started on port 8088
+2024-04-26T13:10:14.169Z - Listening on port 5711
+2024-04-26T13:10:14.190Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-26T13:10:31.274Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T13:10:31.692Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T13:10:48.876Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T13:10:48.878Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T13:11:01.514Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T13:11:49.843Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T13:12:31.864Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T13:12:32.443Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T13:12:58.369Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T13:13:02.686Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T13:15:03.210Z - 
+Server started on port 8088
+2024-04-26T13:15:03.213Z - Listening on port 5711
+2024-04-26T13:15:03.299Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-26T13:16:09.217Z - 
+Server started on port 8088
+2024-04-26T13:16:09.219Z - Listening on port 5711
+2024-04-26T13:16:09.243Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-26T13:17:09.952Z - 
+Server started on port 8088
+2024-04-26T13:17:09.954Z - Listening on port 5711
+2024-04-26T13:17:09.986Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-26T13:17:17.375Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T13:17:17.385Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T13:17:17.407Z - filtereddata is not defined
+2024-04-26T13:18:31.939Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T13:18:32.537Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T13:18:32.549Z - filtereddata is not defined
+2024-04-26T13:19:03.314Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T13:19:03.322Z - filtereddata is not defined
+2024-04-26T13:19:41.220Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T13:20:14.826Z - 
+Server started on port 8088
+2024-04-26T13:20:14.827Z - Listening on port 5711
+2024-04-26T13:20:14.849Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-26T13:22:02.233Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T13:22:32.764Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T13:28:36.494Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T13:29:44.164Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T13:41:17.567Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T13:42:34.515Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T13:45:52.586Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T13:48:35.110Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T13:49:16.741Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T13:51:44.570Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T13:58:36.785Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T14:02:37.217Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T14:05:46.298Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T14:07:55.215Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T14:12:41.038Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T14:14:55.507Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T14:15:55.980Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T14:16:41.573Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T14:18:08.491Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T14:22:56.904Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T14:24:08.526Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T14:31:21.274Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T14:33:49.464Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T14:42:58.535Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T14:43:59.006Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T14:46:42.340Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T14:49:50.712Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T14:52:11.695Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T14:56:42.919Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T14:57:29.572Z - 
+Server started on port 8088
+2024-04-26T14:57:29.574Z - Listening on port 5711
+2024-04-26T14:57:29.601Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-26T14:58:12.522Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T15:00:43.287Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T15:00:43.886Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T15:01:14.098Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T15:01:14.108Z - filtereddata is not defined
+2024-04-26T15:01:24.491Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T15:01:24.492Z - filtereddata is not defined
+2024-04-26T15:03:52.541Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T15:04:56.620Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T15:04:56.621Z - filtereddata is not defined
+2024-04-26T15:06:01.138Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T15:11:27.093Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T15:11:27.094Z - filtereddata is not defined
+2024-04-26T15:12:34.705Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T15:17:34.171Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T15:17:34.190Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T15:17:34.199Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T15:17:34.212Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T15:17:34.216Z - filtereddata is not defined
+2024-04-26T15:17:34.222Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T15:17:34.224Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T15:17:34.225Z - filtereddata is not defined
+2024-04-26T15:17:34.227Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T15:17:34.227Z - filtereddata is not defined
+2024-04-26T15:17:34.259Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T15:17:34.264Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T15:17:34.265Z - filtereddata is not defined
+2024-04-26T15:19:55.563Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T15:20:45.898Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T15:20:46.439Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T15:21:18.216Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T15:21:18.217Z - filtereddata is not defined
+2024-04-26T15:23:13.121Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T15:23:13.123Z - filtereddata is not defined
+2024-04-26T15:24:15.103Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T15:27:45.260Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T15:27:45.262Z - filtereddata is not defined
+2024-04-26T15:30:12.776Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T15:35:46.457Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T15:35:46.459Z - filtereddata is not defined
+2024-04-26T15:38:14.615Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T15:39:16.127Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T15:39:16.138Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T15:39:16.158Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T15:39:16.164Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T15:39:16.165Z - filtereddata is not defined
+2024-04-26T15:39:16.169Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T15:39:16.189Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T15:39:16.190Z - filtereddata is not defined
+2024-04-26T15:39:16.200Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T15:39:16.201Z - filtereddata is not defined
+2024-04-26T15:39:16.225Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T15:39:16.232Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T15:39:16.233Z - filtereddata is not defined
+2024-04-26T15:40:22.585Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T15:41:40.870Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T15:41:40.879Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T15:41:40.886Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T15:41:40.889Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T15:41:40.889Z - filtereddata is not defined
+2024-04-26T15:41:40.896Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T15:41:40.903Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T15:41:40.904Z - filtereddata is not defined
+2024-04-26T15:41:40.911Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T15:41:40.921Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T15:41:40.922Z - filtereddata is not defined
+2024-04-26T15:41:40.927Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T15:41:40.928Z - filtereddata is not defined
+2024-04-26T15:42:47.720Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T15:42:48.266Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T15:43:19.524Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T15:43:19.525Z - filtereddata is not defined
+2024-04-26T15:44:13.728Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T15:48:54.351Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T15:48:54.909Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T15:49:26.156Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T15:49:26.157Z - filtereddata is not defined
+2024-04-26T15:49:48.293Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T15:49:48.294Z - filtereddata is not defined
+2024-04-26T15:54:36.016Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T15:57:48.267Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T15:57:48.268Z - filtereddata is not defined
+2024-04-26T15:58:49.514Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T15:58:50.090Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T15:59:21.233Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T15:59:21.234Z - filtereddata is not defined
+2024-04-26T16:00:15.497Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T16:03:57.368Z - 
+Server started on port 8088
+2024-04-26T16:03:57.370Z - Listening on port 5711
+2024-04-26T16:03:57.403Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-26T16:04:46.744Z - 
+Server started on port 8088
+2024-04-26T16:04:46.757Z - Listening on port 5711
+2024-04-26T16:04:46.783Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-26T16:04:50.783Z - device is not defined
+2024-04-26T16:04:51.844Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:04:51.847Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:05:02.812Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:05:02.815Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:05:02.818Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:05:02.822Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:05:03.650Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:05:03.653Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:05:03.660Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:05:04.261Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:05:04.815Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:05:05.344Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:05:05.922Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:05:06.466Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:05:07.247Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:05:07.254Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:05:08.366Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:05:09.105Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:05:09.108Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:05:09.117Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:05:09.120Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:05:09.122Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:05:09.125Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:05:12.549Z - 
+Server started on port 8088
+2024-04-26T16:05:12.628Z - Listening on port 5711
+2024-04-26T16:05:12.657Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-26T16:05:25.009Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:05:36.317Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:05:36.323Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:05:36.325Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:05:36.327Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:05:36.352Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:05:36.356Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:05:38.165Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:05:38.681Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:05:39.222Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:05:39.754Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:05:40.846Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:05:41.364Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:05:41.944Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:05:42.483Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:05:43.619Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:05:43.627Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:05:43.629Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:05:43.634Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:05:43.636Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:05:43.639Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:06:14.661Z - 
+Server started on port 8088
+2024-04-26T16:06:14.664Z - Listening on port 5711
+2024-04-26T16:06:14.689Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-26T16:06:14.970Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T16:06:14.971Z - filtereddata is not defined
+2024-04-26T16:06:33.311Z - 
+Server started on port 8088
+2024-04-26T16:06:33.340Z - Listening on port 5711
+2024-04-26T16:06:33.362Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-26T16:06:49.592Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T16:06:50.191Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:07:20.217Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T16:07:20.219Z - filtereddata is not defined
+2024-04-26T16:07:27.244Z - 
+Server started on port 8088
+2024-04-26T16:07:27.246Z - Listening on port 5711
+2024-04-26T16:07:27.267Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-26T16:08:51.208Z - traccarGpsData validation failed: protocol: Path `protocol` is required.
+2024-04-26T16:08:51.881Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:08:51.883Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:08:51.886Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:08:51.888Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:08:51.906Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:08:51.910Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:08:53.023Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:08:53.583Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:08:54.104Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:08:54.644Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:08:55.196Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:08:55.778Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:08:56.321Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:08:56.839Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:08:58.275Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:08:58.278Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:08:58.279Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:08:58.282Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:08:58.285Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:08:58.287Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:08:58.291Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:09:22.030Z - 
+Server started on port 8088
+2024-04-26T16:09:22.033Z - Listening on port 5711
+2024-04-26T16:09:22.057Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-26T16:09:28.288Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T16:09:54.723Z - 
+Server started on port 8088
+2024-04-26T16:09:54.726Z - Listening on port 5711
+2024-04-26T16:09:54.747Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-26T16:10:50.004Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T16:10:50.681Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:10:50.695Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:10:50.697Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:10:50.700Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:10:50.703Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:10:50.719Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:10:51.938Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:10:52.468Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:10:53.050Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:10:53.617Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:10:54.149Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:10:54.696Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:10:55.244Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:10:55.835Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:10:57.346Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:10:57.349Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:10:57.353Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:10:57.355Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:10:57.357Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:10:57.359Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:10:57.366Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:11:27.467Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T16:11:48.729Z - 
+Server started on port 8088
+2024-04-26T16:11:48.731Z - Listening on port 5711
+2024-04-26T16:11:48.754Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-26T16:12:51.560Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T16:12:52.087Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T16:13:22.648Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T16:13:49.393Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T16:15:29.496Z - 
+Server started on port 8088
+2024-04-26T16:15:29.497Z - Listening on port 5711
+2024-04-26T16:15:29.515Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-26T16:15:50.134Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T16:15:50.145Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T16:15:50.145Z - filtereddata is not defined
+2024-04-26T16:16:21.354Z - 
+Server started on port 8088
+2024-04-26T16:16:21.356Z - Listening on port 5711
+2024-04-26T16:16:21.377Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-26T16:16:38.061Z - 
+Server started on port 8088
+2024-04-26T16:16:38.064Z - Listening on port 5711
+2024-04-26T16:16:38.082Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-26T16:18:17.465Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T16:19:26.234Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T16:19:26.236Z - filtereddata is not defined
+2024-04-26T16:20:26.200Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T16:27:27.003Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T16:27:27.004Z - filtereddata is not defined
+2024-04-26T16:28:39.051Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T16:33:51.718Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T16:33:51.719Z - filtereddata is not defined
+2024-04-26T16:36:19.277Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T16:37:19.822Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T16:37:19.823Z - filtereddata is not defined
+2024-04-26T16:38:22.260Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T16:41:52.915Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T16:41:52.916Z - filtereddata is not defined
+2024-04-26T16:44:20.152Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T16:45:21.057Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T16:45:21.058Z - filtereddata is not defined
+2024-04-26T16:46:23.574Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T16:51:54.145Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T16:51:54.146Z - filtereddata is not defined
+2024-04-26T16:54:21.235Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T16:57:54.490Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T16:57:54.492Z - filtereddata is not defined
+2024-04-26T17:00:22.059Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T17:01:22.780Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T17:01:22.781Z - filtereddata is not defined
+2024-04-26T17:02:24.797Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T17:03:39.391Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T17:03:39.393Z - filtereddata is not defined
+2024-04-26T17:04:43.084Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T17:07:55.295Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T17:07:55.296Z - filtereddata is not defined
+2024-04-26T17:10:23.811Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T17:11:25.282Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T17:11:25.283Z - filtereddata is not defined
+2024-04-26T17:12:26.324Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T17:21:08.579Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T17:21:08.581Z - filtereddata is not defined
+2024-04-26T17:23:57.726Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T17:23:57.729Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T17:23:57.730Z - filtereddata is not defined
+2024-04-26T17:28:33.769Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T17:29:42.294Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T17:29:42.295Z - filtereddata is not defined
+2024-04-26T17:30:45.829Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T17:33:58.483Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T17:33:58.484Z - filtereddata is not defined
+2024-04-26T17:36:25.932Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T17:37:30.196Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T17:37:30.197Z - filtereddata is not defined
+2024-04-26T17:38:34.633Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T17:41:59.766Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T17:41:59.767Z - filtereddata is not defined
+2024-04-26T17:44:26.889Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T17:50:00.636Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T17:50:00.637Z - filtereddata is not defined
+2024-04-26T17:52:27.359Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T17:59:12.950Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T17:59:12.952Z - filtereddata is not defined
+2024-04-26T18:00:28.471Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T18:06:01.534Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T18:06:01.562Z - filtereddata is not defined
+2024-04-26T18:08:29.093Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T18:14:02.379Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T18:14:02.381Z - filtereddata is not defined
+2024-04-26T18:16:30.864Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T18:22:03.825Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T18:22:03.826Z - filtereddata is not defined
+2024-04-26T18:24:32.554Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T18:32:22.014Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T18:32:22.015Z - filtereddata is not defined
+2024-04-26T18:34:49.510Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T18:42:22.811Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T18:42:22.813Z - filtereddata is not defined
+2024-04-26T18:44:50.492Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T18:52:24.161Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T18:52:24.162Z - filtereddata is not defined
+2024-04-26T18:54:51.740Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T18:56:00.907Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T18:56:00.908Z - filtereddata is not defined
+2024-04-26T18:58:24.996Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T18:58:24.999Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T18:58:25.000Z - filtereddata is not defined
+2024-04-26T19:00:52.491Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T19:06:25.332Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T19:06:25.333Z - filtereddata is not defined
+2024-04-26T19:08:53.035Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T19:12:10.590Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T19:12:10.591Z - filtereddata is not defined
+2024-04-26T19:13:14.260Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T19:14:26.304Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T19:14:26.305Z - filtereddata is not defined
+2024-04-26T19:16:54.177Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T19:18:02.593Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T19:18:02.594Z - filtereddata is not defined
+2024-04-26T19:19:03.050Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T19:22:27.210Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T19:22:27.211Z - filtereddata is not defined
+2024-04-26T19:24:54.745Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T19:27:02.529Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T19:27:02.530Z - filtereddata is not defined
+2024-04-26T19:28:27.801Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T19:28:27.804Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T19:28:27.804Z - filtereddata is not defined
+2024-04-26T19:30:55.438Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T19:36:28.928Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T19:36:28.929Z - filtereddata is not defined
+2024-04-26T19:38:56.243Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T19:40:05.017Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T19:40:05.019Z - filtereddata is not defined
+2024-04-26T19:41:17.455Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T19:47:57.786Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T19:47:57.788Z - filtereddata is not defined
+2024-04-26T19:49:00.539Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T19:56:06.714Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T19:56:06.715Z - filtereddata is not defined
+2024-04-26T19:57:19.135Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T20:06:32.052Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T20:06:32.053Z - filtereddata is not defined
+2024-04-26T20:11:08.648Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T20:12:25.109Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T20:12:25.111Z - filtereddata is not defined
+2024-04-26T20:15:00.026Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T20:21:45.318Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T20:21:45.319Z - filtereddata is not defined
+2024-04-26T20:23:00.884Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T20:30:34.329Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T20:30:34.331Z - filtereddata is not defined
+2024-04-26T20:33:02.195Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T20:36:34.942Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T20:36:34.943Z - filtereddata is not defined
+2024-04-26T20:39:02.583Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T20:44:35.596Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T20:44:35.598Z - filtereddata is not defined
+2024-04-26T20:50:12.529Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T20:50:12.532Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T20:50:12.532Z - filtereddata is not defined
+2024-04-26T20:51:12.832Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T20:52:36.970Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T20:52:36.972Z - filtereddata is not defined
+2024-04-26T20:55:04.244Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T21:01:49.900Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T21:01:49.901Z - filtereddata is not defined
+2024-04-26T21:03:05.073Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T21:04:05.625Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T21:04:05.626Z - filtereddata is not defined
+2024-04-26T21:05:08.028Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T21:08:38.176Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T21:08:38.178Z - filtereddata is not defined
+2024-04-26T21:11:05.907Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T21:20:07.985Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T21:20:07.986Z - filtereddata is not defined
+2024-04-26T21:21:09.682Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T21:28:25.387Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T21:28:25.388Z - filtereddata is not defined
+2024-04-26T21:31:26.298Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T21:40:59.643Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T21:40:59.645Z - filtereddata is not defined
+2024-04-26T21:44:35.816Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T21:44:35.820Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T21:44:35.820Z - filtereddata is not defined
+2024-04-26T21:45:47.864Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T21:50:36.006Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T21:50:36.007Z - filtereddata is not defined
+2024-04-26T21:51:36.486Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T21:55:07.120Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T21:55:07.127Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T21:55:07.128Z - filtereddata is not defined
+2024-04-26T21:55:07.146Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T21:55:07.149Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T21:55:07.149Z - filtereddata is not defined
+2024-04-26T21:55:07.151Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T21:55:07.153Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T21:55:07.162Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T21:55:07.164Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T21:55:07.165Z - filtereddata is not defined
+2024-04-26T21:55:07.166Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T21:55:07.166Z - filtereddata is not defined
+2024-04-26T21:55:07.169Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T21:55:07.169Z - filtereddata is not defined
+2024-04-26T21:55:07.175Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T21:55:07.176Z - filtereddata is not defined
+2024-04-26T21:57:28.693Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T21:58:37.279Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T21:58:37.280Z - filtereddata is not defined
+2024-04-26T21:59:49.221Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T22:04:38.286Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T22:04:38.288Z - filtereddata is not defined
+2024-04-26T22:05:49.962Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T22:10:38.614Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T22:10:38.616Z - filtereddata is not defined
+2024-04-26T22:11:51.125Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T22:16:39.268Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T22:16:39.269Z - filtereddata is not defined
+2024-04-26T22:19:03.361Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T22:19:03.367Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T22:19:03.367Z - filtereddata is not defined
+2024-04-26T22:21:31.018Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T22:22:39.397Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T22:22:39.398Z - filtereddata is not defined
+2024-04-26T22:23:40.331Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T22:26:50.552Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T22:26:50.555Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T22:26:50.560Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T22:26:50.560Z - filtereddata is not defined
+2024-04-26T22:26:50.564Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T22:26:50.578Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T22:26:50.578Z - filtereddata is not defined
+2024-04-26T22:26:50.580Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T22:26:50.582Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T22:26:50.583Z - filtereddata is not defined
+2024-04-26T22:26:50.585Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T22:26:50.594Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T22:26:50.595Z - filtereddata is not defined
+2024-04-26T22:26:50.602Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T22:26:50.603Z - filtereddata is not defined
+2024-04-26T22:27:52.867Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T22:31:04.583Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T22:31:04.584Z - filtereddata is not defined
+2024-04-26T22:33:32.209Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T22:34:41.563Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T22:34:41.565Z - filtereddata is not defined
+2024-04-26T22:35:53.509Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T22:40:41.731Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T22:40:41.732Z - filtereddata is not defined
+2024-04-26T22:41:53.773Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T22:46:42.420Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T22:46:42.421Z - filtereddata is not defined
+2024-04-26T22:47:54.436Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T22:52:42.589Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T22:52:42.590Z - filtereddata is not defined
+2024-04-26T22:53:55.064Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T22:55:13.235Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T22:55:13.238Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T22:55:13.246Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T22:55:13.247Z - filtereddata is not defined
+2024-04-26T22:55:13.249Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T22:55:13.250Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T22:55:13.251Z - filtereddata is not defined
+2024-04-26T22:55:13.256Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T22:55:13.257Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T22:55:13.258Z - filtereddata is not defined
+2024-04-26T22:55:13.260Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T22:55:13.262Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T22:55:13.263Z - filtereddata is not defined
+2024-04-26T22:55:13.265Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T22:55:13.265Z - filtereddata is not defined
+2024-04-26T22:58:43.294Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T22:58:43.297Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T22:58:43.298Z - filtereddata is not defined
+2024-04-26T22:59:43.728Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T23:00:44.192Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T23:00:44.193Z - filtereddata is not defined
+2024-04-26T23:01:55.871Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T23:03:13.976Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T23:03:13.980Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T23:03:13.982Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T23:03:13.982Z - filtereddata is not defined
+2024-04-26T23:03:13.987Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T23:03:13.989Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T23:03:13.990Z - filtereddata is not defined
+2024-04-26T23:03:13.996Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T23:03:13.997Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T23:03:13.998Z - filtereddata is not defined
+2024-04-26T23:03:13.999Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T23:03:14.001Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T23:03:14.001Z - filtereddata is not defined
+2024-04-26T23:03:14.003Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T23:03:14.003Z - filtereddata is not defined
+2024-04-26T23:06:44.531Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T23:06:44.535Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T23:06:44.535Z - filtereddata is not defined
+2024-04-26T23:07:56.566Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T23:09:14.650Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T23:09:14.654Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T23:09:14.657Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T23:09:14.657Z - filtereddata is not defined
+2024-04-26T23:09:14.665Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T23:09:14.676Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T23:09:14.676Z - filtereddata is not defined
+2024-04-26T23:09:14.678Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T23:09:14.680Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T23:09:14.681Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T23:09:14.681Z - filtereddata is not defined
+2024-04-26T23:09:14.683Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T23:09:14.683Z - filtereddata is not defined
+2024-04-26T23:09:14.696Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T23:09:14.698Z - filtereddata is not defined
+2024-04-26T23:11:36.236Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T23:12:37.199Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T23:12:37.200Z - filtereddata is not defined
+2024-04-26T23:13:36.689Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T23:18:45.896Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T23:18:45.897Z - filtereddata is not defined
+2024-04-26T23:21:10.329Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T23:21:10.330Z - filtereddata is not defined
+2024-04-26T23:21:10.334Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T23:23:37.445Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T23:24:46.377Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T23:24:46.378Z - filtereddata is not defined
+2024-04-26T23:27:10.444Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T23:27:10.447Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T23:27:10.448Z - filtereddata is not defined
+2024-04-26T23:29:38.139Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T23:30:38.989Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T23:30:38.989Z - filtereddata is not defined
+2024-04-26T23:31:41.029Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T23:32:59.157Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T23:32:59.161Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T23:32:59.163Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T23:32:59.164Z - filtereddata is not defined
+2024-04-26T23:32:59.169Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T23:32:59.171Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T23:32:59.172Z - filtereddata is not defined
+2024-04-26T23:32:59.179Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T23:32:59.180Z - filtereddata is not defined
+2024-04-26T23:32:59.183Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T23:32:59.197Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T23:32:59.213Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T23:32:59.214Z - filtereddata is not defined
+2024-04-26T23:32:59.217Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T23:32:59.219Z - filtereddata is not defined
+2024-04-26T23:33:59.542Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T23:36:23.682Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T23:36:23.683Z - filtereddata is not defined
+2024-04-26T23:37:38.900Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T23:38:57.289Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T23:38:57.296Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T23:38:57.301Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T23:38:57.301Z - filtereddata is not defined
+2024-04-26T23:38:57.303Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T23:38:57.307Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T23:38:57.308Z - filtereddata is not defined
+2024-04-26T23:38:57.312Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T23:38:57.313Z - filtereddata is not defined
+2024-04-26T23:38:57.314Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T23:38:57.317Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T23:38:57.318Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T23:38:57.318Z - filtereddata is not defined
+2024-04-26T23:38:57.320Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T23:38:57.320Z - filtereddata is not defined
+2024-04-26T23:41:12.517Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T23:41:12.521Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T23:41:12.521Z - filtereddata is not defined
+2024-04-26T23:43:39.578Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T23:46:49.187Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T23:46:49.190Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T23:46:49.195Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T23:46:49.196Z - filtereddata is not defined
+2024-04-26T23:46:49.198Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T23:46:49.199Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T23:46:49.200Z - filtereddata is not defined
+2024-04-26T23:46:49.205Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T23:46:49.208Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T23:46:49.208Z - filtereddata is not defined
+2024-04-26T23:46:49.210Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T23:46:49.211Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T23:46:49.212Z - filtereddata is not defined
+2024-04-26T23:46:49.214Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T23:46:49.215Z - filtereddata is not defined
+2024-04-26T23:48:01.170Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T23:54:41.415Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T23:54:41.417Z - filtereddata is not defined
+2024-04-26T23:55:43.553Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-26T23:57:01.662Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T23:57:01.666Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T23:57:01.668Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T23:57:01.669Z - filtereddata is not defined
+2024-04-26T23:57:01.675Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T23:57:01.677Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T23:57:01.677Z - filtereddata is not defined
+2024-04-26T23:57:01.681Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T23:57:01.682Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T23:57:01.683Z - filtereddata is not defined
+2024-04-26T23:57:01.685Z - Cannot read properties of undefined (reading 'type')
+2024-04-26T23:57:01.687Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T23:57:01.687Z - filtereddata is not defined
+2024-04-26T23:57:01.691Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-26T23:57:01.691Z - filtereddata is not defined
+2024-04-26T23:59:41.276Z - Cannot read properties of undefined (reading 'protocol')
