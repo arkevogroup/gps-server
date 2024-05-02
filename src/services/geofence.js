@@ -36,7 +36,7 @@ const getGeofence = asyncHandler(async (req, res) => {
 
 const createNewGeofence = asyncHandler(async (req, res) => {
   try {
-    const { gps_id } = req.body;
+    const { gps_id, geo_coord } = req.body;
 
     const existingDevice = await gpsModel.findOne({ _id: gps_id }).exec();
     if (!existingDevice) {
@@ -45,19 +45,14 @@ const createNewGeofence = asyncHandler(async (req, res) => {
       });
     }
 
-    // Construct geo_coord object with latitude and longitude arrays
-    const geo_coord = {
-      latitude: req.body.geo_coord.latitude,
-      longitude: req.body.geo_coord.longitude,
-    };
     const newGeofence = new geoFenceModel({
       _id: new mongoose.Types.ObjectId(),
       gps_id,
-      geo_coord: geo_coord,
+      geo_coord,
     });
 
     const result = await newGeofence.save();
-
+    writeLog(`Geofence for gps: ${gps_id} created `);
     return res.status(201).json({
       message: "Geofence created successfully",
       createdGeofence: result,
@@ -77,28 +72,27 @@ const updateGeofence = asyncHandler(async (req, res) => {
     if (!geoId) {
       return res.status(400).json({ message: "geoId parameter is required" });
     }
-    const { latitude, longitude } = req.body;
+    const { coordinates } = req.body;
+    const existingGeofence = await geoFenceModel.findOne({ _id: geoId }).exec();
 
-    const existingDevice = await geoFenceModel.findOne({ _id: geoId }).exec();
-    if (!existingDevice) {
-      return res.status(409).json({
+    if (!existingGeofence) {
+      return res.status(400).json({
         message: `Geofence id: '${geoId}' does not exist`,
       });
     }
 
     const updateGeo = {};
-    if (latitude) updateGeo["geo_coord.latitude"] = latitude;
-    if (longitude) updateGeo["geo_coord.longitude"] = longitude;
+    if (coordinates) updateGeo["geo_coord.coordinates"] = coordinates;
     const result = await geoFenceModel
       .updateOne({ _id: geoId }, { $set: updateGeo })
       .exec();
 
     if (result.nModified === 0) {
       return res
-        .status(404) 
+        .status(400)
         .json({ message: "No geofence found for the provided geoId" });
     }
-
+    writeLog(`Geofence for Geofence_ID ${geoId} changed `);
     res.status(200).json({
       message: "Geofence updated successfully",
       updatedFields: updateGeo,
@@ -111,26 +105,25 @@ const updateGeofence = asyncHandler(async (req, res) => {
 
 //delete geofence
 const deleteGeofence = asyncHandler(async (req, res) => {
-    try {
-        const { geoId } = req.query;
-        console.log(geoId)
-        if (!geoId) {
-            return res.status(400).json({ message: "geoId parameter is required" });
-        }
-
-        const existingGeofence = await geoFenceModel.findOne({ _id: geoId }).exec();
-        if (!existingGeofence) {
-            return res.status(404).json({ message: "Geofence not found" });
-        }
-
-        await geoFenceModel.deleteOne({ _id: geoId }).exec();
-
-        res.status(200).json({ message: `Geofence with id ${geoId} deleted` });
-    } catch (error) {
-        console.error("Error deleting geofence:", error);
-        res.status(500).json({ error: error.message });
+  try {
+    const { geoId } = req.query;
+    console.log(geoId);
+    if (!geoId) {
+      return res.status(400).json({ message: "geoId parameter is required" });
     }
-});
 
+    const existingGeofence = await geoFenceModel.findOne({ _id: geoId }).exec();
+    if (!existingGeofence) {
+      return res.status(404).json({ message: "Geofence not found" });
+    }
+
+    await geoFenceModel.deleteOne({ _id: geoId }).exec();
+
+    res.status(200).json({ message: `Geofence with id ${geoId} deleted` });
+  } catch (error) {
+    console.error("Error deleting geofence:", error);
+    res.status(500).json({ error: error.message });
+  }
+});
 
 export { getGeofence, createNewGeofence, updateGeofence, deleteGeofence };

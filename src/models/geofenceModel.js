@@ -11,16 +11,14 @@ const geofenceSchema = new mongoose.Schema({
     },
     geo_coord: {
         type: {
-            latitude: { type: [Number], required: true },
-            longitude: { type: [Number], required: true }
+            coordinates: [[Number]], 
         },
-        _id: false,
-        required: true
+        required: true,
+        _id: false
     }
 }, {
     collection: 'Geofence'
 });
-
 
 const GeoFenceModel = mongoose.model('Geofence', geofenceSchema);
 

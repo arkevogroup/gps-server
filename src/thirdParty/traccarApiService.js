@@ -7,15 +7,14 @@ import axios from "axios";
 const fromTraccarData = asyncHandler(async (req, res) => {
   try {
     const body = req.body;
-
+    console.log(req.body.position.protocol)
     if (body.device.status === "online") {
       const deviceExists = await doesDeviceExist(body.device?.uniqueId);
-
       if (!deviceExists) {
         await registerDevice(body);
       } else {
         writeLog("GPS with provided IMEI exists, forwarding to Laravel");
-        sendToLaravel(body);
+        //sendToLaravel(body);
       }
     }
     res.status(200).send("GPS data received successfully");
@@ -41,7 +40,7 @@ const registerDevice = async (body) => {
     imei: device.uniqueId,
     protocol: position.protocol,
   });
-
+   console.log(newGpsData)
   await newGpsData.save();
 
   writeLog(`Details for ${device?.name} registered to database`);

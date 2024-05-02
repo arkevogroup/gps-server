@@ -14,7 +14,11 @@ const traccarDataSchema = mongoose.Schema({
         type: String,
         required: true
     }
-}, { timestamps: true });
+}, { timestamps: true },
+{
+    collection: 'traccarGpsData'
+}
+);
 
 const traccarGps = mongoose.model('traccarGpsData', traccarDataSchema);
 
