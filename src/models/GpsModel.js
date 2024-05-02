@@ -8,6 +8,10 @@ const gpsSchema = mongoose.Schema({
         },
         device_id : {
             type: mongoose.Schema.Types.ObjectId, ref: 'Device'
+        },
+        alternate_imei : {
+            type : String,
+            unique : true
         }
     },
     {
