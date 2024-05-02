@@ -58,3 +58,7 @@
 2024-05-02T07:49:23.019Z - Listening on port 5711
 2024-05-02T07:49:23.085Z - MongoDB Connected : 192.168.89.50
 -----------------------------
+2024-05-02T08:01:12.702Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-05-02T08:01:13.083Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-05-02T08:01:13.134Z - Data sent to Laravel
+2024-05-02T08:01:13.145Z - Data sent to Laravel
