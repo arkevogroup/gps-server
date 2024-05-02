@@ -49,6 +49,7 @@ const createNewGps = asyncHandler(async (req, res) =>{
 });
 
 
+
 async function post_to_traccar(data) {
   try {
   } catch (err) {
