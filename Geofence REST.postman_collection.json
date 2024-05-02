@@ -1,0 +1,254 @@
+{
+	"info": {
+		"_postman_id": "0cbf7643-e5f7-4286-afe2-5e1b8ec84529",
+		"name": "Geofence REST",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31145980"
+	},
+	"item": [
+		{
+			"name": "gettraccardata",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "apikey",
+						"value": "GPS_KEY_123456789",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8088/api/traccar/gettraccardata?id=864636061378789",
+					"host": [
+						"localhost"
+					],
+					"port": "8088",
+					"path": [
+						"api",
+						"traccar",
+						"gettraccardata"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "864636061378789"
+						}
+					]
+				},
+				"description": "**Get Request** to get data from traccar document"
+			},
+			"response": []
+		},
+		{
+			"name": "Create new gps",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "apikey",
+						"value": "GPS_KEY_123456789",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"imei\": \"123456789101112\",\r\n    \"device_id\":\"66335619df65d001c20cac7d\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8088/api/gps/store",
+					"host": [
+						"localhost"
+					],
+					"port": "8088",
+					"path": [
+						"api",
+						"gps",
+						"store"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Payload POST from traccar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"event\": {\r\n    \"id\": 14355,\r\n    \"attributes\": { \"alarm\": \"hardAcceleration\" },\r\n    \"deviceId\": 5,\r\n    \"type\": \"alarm\",\r\n    \"eventTime\": \"2024-04-29T08:44:14.000+00:00\",\r\n    \"positionId\": 93146,\r\n    \"geofenceId\": 0,\r\n    \"maintenanceId\": 0\r\n  },\r\n  \"position\": {\r\n    \"id\": 93146,\r\n    \"attributes\": {\r\n      \"priority\": 1,\r\n      \"sat\": 18,\r\n      \"event\": 253,\r\n      \"ignition\": true,\r\n      \"motion\": true,\r\n      \"io80\": 1,\r\n      \"rssi\": 4,\r\n      \"io200\": 0,\r\n      \"io69\": 1,\r\n      \"io29\": 0,\r\n      \"io23\": 0,\r\n      \"io113\": 100,\r\n      \"io81\": 43,\r\n      \"io89\": 0,\r\n      \"io114\": 0,\r\n      \"io152\": 0,\r\n      \"io235\": 0,\r\n      \"alarm\": \"hardAcceleration\",\r\n      \"pdop\": 0.9,\r\n      \"hdop\": 0.6000000000000001,\r\n      \"io24\": 51,\r\n      \"io206\": 9690,\r\n      \"io68\": 0,\r\n      \"io13\": 611,\r\n      \"axisX\": 200,\r\n      \"axisY\": 270,\r\n      \"axisZ\": 0,\r\n      \"io6\": 131,\r\n      \"bleTemp1\": 30,\r\n      \"bleTemp2\": 30,\r\n      \"bleTemp3\": 30,\r\n      \"bleTemp4\": 30,\r\n      \"io86\": 3000,\r\n      \"io104\": 3000,\r\n      \"io106\": 3000,\r\n      \"io108\": 3000,\r\n      \"io84\": 310,\r\n      \"io85\": 1741,\r\n      \"door\": 0,\r\n      \"io110\": 0,\r\n      \"io115\": 890,\r\n      \"operator\": 27602,\r\n      \"odometer\": 2047846893,\r\n      \"io12\": 382027,\r\n      \"io5\": 0,\r\n      \"io83\": 0,\r\n      \"io87\": 241118000,\r\n      \"io100\": 11137,\r\n      \"io102\": 0,\r\n      \"io103\": 0,\r\n      \"io105\": 6387325,\r\n      \"io107\": 4846,\r\n      \"io134\": 0,\r\n      \"io11\": 89355020000,\r\n      \"io132\": 412367192075,\r\n      \"io14\": 379210915,\r\n      \"distance\": 33334.185774606354,\r\n      \"totalDistance\": 2683291.6729373694,\r\n      \"hours\": 1755682170\r\n    },\r\n    \"deviceId\": 5,\r\n    \"protocol\": \"telematic\",\r\n    \"serverTime\": \"2024-04-29T10:00:55.774+00:00\",\r\n    \"deviceTime\": \"2024-04-29T08:44:14.000+00:00\",\r\n    \"fixTime\": \"2024-04-29T08:44:14.000+00:00\",\r\n    \"outdated\": false,\r\n    \"valid\": true,\r\n    \"latitude\": 42.0654966,\r\n    \"longitude\": 19.4900099,\r\n    \"altitude\": 17,\r\n    \"speed\": 27.537807,\r\n    \"course\": 338,\r\n    \"address\": null,\r\n    \"accuracy\": 0,\r\n    \"network\": null,\r\n    \"geofenceIds\": null\r\n  },\r\n  \"device\": {\r\n    \"id\": 5,\r\n    \"attributes\": { \"fuelDropThreshold\": 20 },\r\n    \"groupId\": 0,\r\n    \"calendarId\": 0,\r\n    \"name\": \"E-audi\",\r\n    \"uniqueId\": \"864637061378788\",\r\n    \"status\": \"online\",\r\n    \"lastUpdate\": \"2024-04-29T10:00:55.774+00:00\",\r\n    \"positionId\": 93120,\r\n    \"phone\": null,\r\n    \"model\": null,\r\n    \"contact\": null,\r\n    \"category\": null,\r\n    \"disabled\": false,\r\n    \"expirationTime\": null\r\n  }\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8088/api/traccar/traccarData",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8088",
+					"path": [
+						"api",
+						"traccar",
+						"traccarData"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create geofence",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "apikey",
+						"value": "GPS_KEY_123456789",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"gps_id\": \"66335619df65d001c20cac7d\",\r\n  \"geo_coord\": {\r\n    \"latitude\": [  -1.7041913807133255, \r\n  74.60256151164828,   \r\n  -37.6815204604639,   \r\n  -57.30158561430614,  \r\n  40.682863657242535,  \r\n  17.110370465693308,  \r\n  -26.006173352834992, \r\n  79.169737866686,     \r\n  -73.47249123329948,  \r\n  -26.451843592777898  ],\r\n    \"longitude\": [\r\n        44.28914263074182,    \r\n  -115.65290838852076,  \r\n  -136.8623254342162,   \r\n  176.9779361121765,    \r\n  53.77371042119762,    \r\n  -89.47235122939483,   \r\n  -100.53855497833071,\r\n  -63.55469950155833,\r\n  -135.99844878166445,\r\n  -173.93278791614813\r\n    ]\r\n  }\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8088/api/gps/geofence",
+					"host": [
+						"localhost"
+					],
+					"port": "8088",
+					"path": [
+						"api",
+						"gps",
+						"geofence"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GeoFence",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "apikey",
+						"value": "GPS_KEY_123456789",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8088/api/gps/geofence?geoId=663398330e0890dd5801645a",
+					"host": [
+						"localhost"
+					],
+					"port": "8088",
+					"path": [
+						"api",
+						"gps",
+						"geofence"
+					],
+					"query": [
+						{
+							"key": "geoId",
+							"value": "663398330e0890dd5801645a"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update geofence",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "apikey",
+						"value": "GPS_KEY_123456789",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"latitude\": [40.7128, 41.8781],\r\n    \"longitude\": [-74.0060, -87.6298]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8088/api/gps/geofence?geoId=66338e67dc7e7a0f4b09fa54",
+					"host": [
+						"localhost"
+					],
+					"port": "8088",
+					"path": [
+						"api",
+						"gps",
+						"geofence"
+					],
+					"query": [
+						{
+							"key": "geoId",
+							"value": "66338e67dc7e7a0f4b09fa54"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delte geofence",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "apikey",
+						"value": "GPS_KEY_123456789",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8088/api/gps/geofence?geoId=66338e67dc7e7a0f4b09fa54",
+					"host": [
+						"localhost"
+					],
+					"port": "8088",
+					"path": [
+						"api",
+						"gps",
+						"geofence"
+					],
+					"query": [
+						{
+							"key": "geoId",
+							"value": "66338e67dc7e7a0f4b09fa54"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

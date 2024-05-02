@@ -1,105 +1,136 @@
 import asyncHandler from "express-async-handler";
-import traccarGFModel from "../models/traccar_geofenceModel.js"; 
+import geoFenceModel from "../models/geofenceModel.js";
 import { mongoose } from "mongoose";
-
+import gpsModel from "../models/GpsModel.js";
+import writeLog from "../utils/writeLog.js";
 
 //get geofence by id
 const getGeofence = asyncHandler(async (req, res) => {
-    const id = req.query.params.geoId;
-    geofence = traccarGFModel.findById(geoId).exec()
-   .then(doc =>{
-        if (doc){
-            res.status(200).json(doc);
-        }
-        else{
-            res.status(404).json({message: 'No valid entry found for provided ID'});
-        }
-   })
-   .catch(err => {
-        res.status(500).json({
-            message: 'Get geofence with id ' + id
-        }); 
+  try {
+    const { geoId } = req.query;
+
+    if (geoId) {
+      const doc = await geoFenceModel
+        .findOne({ _id: geoId })
+        .select("_id gps_id geo_coord")
+        .exec();
+      if (!doc) {
+        return res.status(404).json({ message: "No geofence found" });
+      }
+      return res.status(200).json(doc);
+    } else {
+      const doc = await geoFenceModel.find().exec();
+      res.status(200).json({
+        count: doc.length,
+        geofence: doc,
+      });
+    }
+  } catch (err) {
+    res.status(500).json({
+      message: "Internal Server Error",
+      error: err.message,
     });
-   next();
+    writeLog(err);
+  }
 });
 
 const createNewGeofence = asyncHandler(async (req, res) => {
-    try {
-        const coord = req.body;
-        const existingProduct = await traccarGFModel.findOne({ geoId: req.params.geoId }).exec();
-        if (existingProduct) {
-            return res.status(409).json({
-                message: `geofence with name:'${req.body.name}' already exists`
-            });
-        } else {
-            const tre = new traccarGFModel({
-                _id: new mongoose.Types.ObjectId(),
-                g1: coord.g1,
-                g2: coord.g2,
-                g3: coord.g3,
-                g4: coord.g4
-            });
-            const result = await tre.save();
+  try {
+    const { gps_id } = req.body;
 
-            console.log(result);
-            return res.status(201).json({
-                message: 'Geofence created successfully',
-                createdProduct: result
-            });
-        }
-    } catch (err) {
-        console.log(err);
-        return res.status(500).json({
-            error: err
-        });
+    const existingDevice = await gpsModel.findOne({ _id: gps_id }).exec();
+    if (!existingDevice) {
+      return res.status(409).json({
+        message: `Device with id: '${gps_id}' does not exist`,
+      });
     }
+
+    // Construct geo_coord object with latitude and longitude arrays
+    const geo_coord = {
+      latitude: req.body.geo_coord.latitude,
+      longitude: req.body.geo_coord.longitude,
+    };
+    const newGeofence = new geoFenceModel({
+      _id: new mongoose.Types.ObjectId(),
+      gps_id,
+      geo_coord: geo_coord,
+    });
+
+    const result = await newGeofence.save();
+
+    return res.status(201).json({
+      message: "Geofence created successfully",
+      createdGeofence: result,
+    });
+  } catch (err) {
+    console.error(err);
+    return res.status(500).json({
+      error: err.message,
+    });
+  }
 });
 
-//update geofence
+//update geofence coordinates
 const updateGeofence = asyncHandler(async (req, res) => {
-    try {
-        const id = req.params.geoId;
-        const updateGeo = {};
-
-        for (const ops of req.body){
-            updateGeo[ops.change] = ops.newValue;
-        }
-
-        const result = await traccarGFModel.updateOne({_id: id}, {$set: updateGeo}).exec();
-
-        res.status(200).json({
-            message: 'Product updated',
-            request: req.body
-        });
-    } catch (err) {
-        res.status(500).json({
-            error: err
-        });
+  try {
+    const { geoId } = req.query;
+    if (!geoId) {
+      return res.status(400).json({ message: "geoId parameter is required" });
     }
-});
+    const { latitude, longitude } = req.body;
 
+    const existingDevice = await geoFenceModel.findOne({ _id: geoId }).exec();
+    if (!existingDevice) {
+      return res.status(409).json({
+        message: `Geofence id: '${geoId}' does not exist`,
+      });
+    }
+
+    const updateGeo = {};
+    if (latitude) updateGeo["geo_coord.latitude"] = latitude;
+    if (longitude) updateGeo["geo_coord.longitude"] = longitude;
+    const result = await geoFenceModel
+      .updateOne({ _id: geoId }, { $set: updateGeo })
+      .exec();
+
+    if (result.nModified === 0) {
+      return res
+        .status(404) 
+        .json({ message: "No geofence found for the provided geoId" });
+    }
+
+    res.status(200).json({
+      message: "Geofence updated successfully",
+      updatedFields: updateGeo,
+    });
+  } catch (err) {
+    console.error("Error updating geofence:", err);
+    res.status(500).json({ message: "Internal Server Error" });
+  }
+});
 
 //delete geofence
 const deleteGeofence = asyncHandler(async (req, res) => {
-    Product.deleteOne({_id: req.params.geoId})
-    .exec()
-    .then(response => {
+    try {
+        const { geoId } = req.query;
+        console.log(geoId)
+        if (!geoId) {
+            return res.status(400).json({ message: "geoId parameter is required" });
+        }
 
-        res.status(200).json('Geofence with id ' + req.params.geoId + ' deleted');
-    })
-    .catch(error => {   
-        res.status(500).json({
-            error: error
-           });
-    });
-    
-    //next();
+        const existingGeofence = await geoFenceModel.findOne({ _id: geoId }).exec();
+        if (!existingGeofence) {
+            return res.status(404).json({ message: "Geofence not found" });
+        }
+
+        await geoFenceModel.deleteOne({ _id: geoId }).exec();
+
+        res.status(200).json({ message: `Geofence with id ${geoId} deleted` });
+    } catch (error) {
+        console.error("Error deleting geofence:", error);
+        res.status(500).json({ error: error.message });
+    }
 });
 
 
-export {
-    getGeofence,
-    createNewGeofence,
-    updateGeofence,
-    deleteGeofence,
-  };
+export { getGeofence, createNewGeofence, updateGeofence, deleteGeofence };

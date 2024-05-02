@@ -62,3 +62,491 @@
 2024-05-02T08:01:13.083Z - GPS with provided IMEI exists, forwarding to Laravel
 2024-05-02T08:01:13.134Z - Data sent to Laravel
 2024-05-02T08:01:13.145Z - Data sent to Laravel
+2024-05-02T08:30:15.868Z - Server started on port 8088
+2024-05-02T08:30:15.876Z - Listening on port 5711
+2024-05-02T08:30:15.901Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T08:31:34.663Z - Server started on port 8088
+2024-05-02T08:31:34.665Z - Listening on port 5711
+2024-05-02T08:31:34.694Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T08:32:26.177Z - Server started on port 8088
+2024-05-02T08:32:26.179Z - Listening on port 5711
+2024-05-02T08:32:26.207Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T08:33:13.510Z - Server started on port 8088
+2024-05-02T08:33:13.511Z - Listening on port 5711
+2024-05-02T08:33:13.537Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T08:47:13.031Z - Server started on port 8088
+2024-05-02T08:47:13.037Z - Listening on port 5711
+2024-05-02T08:47:13.058Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T08:49:17.633Z - Cannot read properties of undefined (reading 'protocol')
+2024-05-02T08:49:18.185Z - Details for fmc150 registered to database
+2024-05-02T08:49:18.188Z - E11000 duplicate key error collection: test.traccargpsdatas index: name_1 dup key: { name: "fmc150" }
+2024-05-02T08:49:18.191Z - E11000 duplicate key error collection: test.traccargpsdatas index: name_1 dup key: { name: "fmc150" }
+2024-05-02T08:56:21.805Z - Server started on port 8088
+2024-05-02T08:56:21.826Z - Listening on port 5711
+2024-05-02T08:56:21.851Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T08:57:07.810Z - Server started on port 8088
+2024-05-02T08:57:07.812Z - Listening on port 5711
+2024-05-02T08:57:07.834Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T08:57:51.027Z - Server started on port 8088
+2024-05-02T08:57:51.029Z - Listening on port 5711
+2024-05-02T08:57:51.051Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T09:04:34.654Z - Server started on port 8088
+2024-05-02T09:04:34.656Z - Listening on port 5711
+2024-05-02T09:04:34.682Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T09:04:50.866Z - Server started on port 8088
+2024-05-02T09:04:50.868Z - Listening on port 5711
+2024-05-02T09:04:50.891Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T09:05:28.441Z - Server started on port 8088
+2024-05-02T09:05:28.468Z - Listening on port 5711
+2024-05-02T09:05:28.501Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T09:06:25.225Z - Server started on port 8088
+2024-05-02T09:06:25.227Z - Listening on port 5711
+2024-05-02T09:06:25.249Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T09:07:35.078Z - Server started on port 8088
+2024-05-02T09:07:35.079Z - Listening on port 5711
+2024-05-02T09:07:35.100Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T09:07:59.426Z - Server started on port 8088
+2024-05-02T09:07:59.428Z - Listening on port 5711
+2024-05-02T09:07:59.449Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T09:08:32.410Z - Server started on port 8088
+2024-05-02T09:08:32.412Z - Listening on port 5711
+2024-05-02T09:08:32.433Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T09:09:03.344Z - Server started on port 8088
+2024-05-02T09:09:03.346Z - Listening on port 5711
+2024-05-02T09:09:03.366Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T09:09:57.232Z - Server started on port 8088
+2024-05-02T09:09:57.234Z - Listening on port 5711
+2024-05-02T09:09:57.262Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T09:11:05.978Z - Server started on port 8088
+2024-05-02T09:11:05.980Z - Listening on port 5711
+2024-05-02T09:11:06.007Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T09:12:07.099Z - Server started on port 8088
+2024-05-02T09:12:07.101Z - Listening on port 5711
+2024-05-02T09:12:07.123Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T09:13:20.190Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-05-02T09:13:20.858Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-05-02T09:13:20.999Z - Data sent to Laravel
+2024-05-02T09:13:21.135Z - Data sent to Laravel
+2024-05-02T09:19:41.186Z - Server started on port 8088
+2024-05-02T09:19:41.201Z - Listening on port 5711
+2024-05-02T09:19:41.228Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T09:31:21.909Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-05-02T09:31:21.973Z - Data sent to Laravel
+2024-05-02T09:31:22.485Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-05-02T09:31:22.492Z - Data sent to Laravel
+2024-05-02T09:33:53.806Z - Server started on port 8088
+2024-05-02T09:33:53.808Z - Listening on port 5711
+2024-05-02T09:33:53.827Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T09:34:40.120Z - Server started on port 8088
+2024-05-02T09:34:40.122Z - Listening on port 5711
+2024-05-02T09:34:40.149Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T09:37:37.306Z - Server started on port 8088
+2024-05-02T09:37:37.308Z - Listening on port 5711
+2024-05-02T09:37:37.332Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T09:37:52.945Z - Server started on port 8088
+2024-05-02T09:37:52.947Z - Listening on port 5711
+2024-05-02T09:37:52.973Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T09:40:43.920Z - Server started on port 8088
+2024-05-02T09:40:43.922Z - Listening on port 5711
+2024-05-02T09:40:43.948Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T09:40:44.804Z - TypeError: Cannot read properties of undefined (reading 'geoId')
+    at file:///C:/Users/sysadmin/Desktop/proj/gps/src/services/geofence.js:9:32
+    at asyncUtilWrap (C:\Users\sysadmin\Desktop\proj\gps\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\Users\sysadmin\Desktop\proj\gps\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sysadmin\Desktop\proj\gps\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sysadmin/Desktop/proj/gps/src/middleware/authMiddleware.js:12:13
+    at asyncUtilWrap (C:\Users\sysadmin\Desktop\proj\gps\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\Users\sysadmin\Desktop\proj\gps\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sysadmin\Desktop\proj\gps\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\sysadmin\Desktop\proj\gps\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\sysadmin\Desktop\proj\gps\node_modules\express\lib\router\layer.js:95:5)
+2024-05-02T09:40:47.500Z - TypeError: Cannot read properties of undefined (reading 'geoId')
+    at file:///C:/Users/sysadmin/Desktop/proj/gps/src/services/geofence.js:9:32
+    at asyncUtilWrap (C:\Users\sysadmin\Desktop\proj\gps\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\Users\sysadmin\Desktop\proj\gps\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sysadmin\Desktop\proj\gps\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sysadmin/Desktop/proj/gps/src/middleware/authMiddleware.js:12:13
+    at asyncUtilWrap (C:\Users\sysadmin\Desktop\proj\gps\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\Users\sysadmin\Desktop\proj\gps\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sysadmin\Desktop\proj\gps\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\sysadmin\Desktop\proj\gps\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\sysadmin\Desktop\proj\gps\node_modules\express\lib\router\layer.js:95:5)
+2024-05-02T09:41:18.390Z - TypeError: Cannot read properties of undefined (reading 'geoId')
+    at file:///C:/Users/sysadmin/Desktop/proj/gps/src/services/geofence.js:9:32
+    at asyncUtilWrap (C:\Users\sysadmin\Desktop\proj\gps\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\Users\sysadmin\Desktop\proj\gps\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sysadmin\Desktop\proj\gps\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sysadmin/Desktop/proj/gps/src/middleware/authMiddleware.js:12:13
+    at asyncUtilWrap (C:\Users\sysadmin\Desktop\proj\gps\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\Users\sysadmin\Desktop\proj\gps\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sysadmin\Desktop\proj\gps\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\sysadmin\Desktop\proj\gps\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\sysadmin\Desktop\proj\gps\node_modules\express\lib\router\layer.js:95:5)
+2024-05-02T09:41:47.499Z - Server started on port 8088
+2024-05-02T09:41:47.503Z - Listening on port 5711
+2024-05-02T09:41:47.530Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T09:41:47.589Z - TypeError: Cannot read properties of undefined (reading 'geoId')
+    at file:///C:/Users/sysadmin/Desktop/proj/gps/src/services/geofence.js:9:32
+    at asyncUtilWrap (C:\Users\sysadmin\Desktop\proj\gps\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\Users\sysadmin\Desktop\proj\gps\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sysadmin\Desktop\proj\gps\node_modules\express\lib\router\route.js:144:13)
+    at file:///C:/Users/sysadmin/Desktop/proj/gps/src/middleware/authMiddleware.js:12:13
+    at asyncUtilWrap (C:\Users\sysadmin\Desktop\proj\gps\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\Users\sysadmin\Desktop\proj\gps\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sysadmin\Desktop\proj\gps\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\sysadmin\Desktop\proj\gps\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\sysadmin\Desktop\proj\gps\node_modules\express\lib\router\layer.js:95:5)
+2024-05-02T09:42:08.348Z - Server started on port 8088
+2024-05-02T09:42:08.379Z - Listening on port 5711
+2024-05-02T09:42:08.450Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T09:46:43.529Z - Server started on port 8088
+2024-05-02T09:46:43.536Z - Listening on port 5711
+2024-05-02T09:46:43.558Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T09:49:23.482Z - Server started on port 8088
+2024-05-02T09:49:23.484Z - Listening on port 5711
+2024-05-02T09:49:23.507Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T09:50:11.160Z - Server started on port 8088
+2024-05-02T09:50:11.162Z - Listening on port 5711
+2024-05-02T09:50:11.185Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T09:51:24.329Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-05-02T09:51:24.840Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-05-02T09:51:24.880Z - Data sent to Laravel
+2024-05-02T09:51:24.974Z - Data sent to Laravel
+2024-05-02T10:00:44.296Z - Server started on port 8088
+2024-05-02T10:00:44.327Z - Listening on port 5711
+2024-05-02T10:00:44.383Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T10:01:00.257Z - Server started on port 8088
+2024-05-02T10:01:00.278Z - Listening on port 5711
+2024-05-02T10:01:00.312Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T10:01:25.300Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-05-02T10:01:25.452Z - Data sent to Laravel
+2024-05-02T10:01:25.776Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-05-02T10:01:25.784Z - Data sent to Laravel
+2024-05-02T10:02:09.308Z - Server started on port 8088
+2024-05-02T10:02:09.310Z - Listening on port 5711
+2024-05-02T10:02:09.334Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T10:15:16.772Z - Server started on port 8088
+2024-05-02T10:15:16.792Z - Listening on port 5711
+2024-05-02T10:15:16.818Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T10:15:50.400Z - Server started on port 8088
+2024-05-02T10:15:50.402Z - Listening on port 5711
+2024-05-02T10:15:50.427Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T10:16:14.568Z - Server started on port 8088
+2024-05-02T10:16:14.574Z - Listening on port 5711
+2024-05-02T10:16:14.658Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T10:16:21.021Z - Server started on port 8088
+2024-05-02T10:16:21.023Z - Listening on port 5711
+2024-05-02T10:16:21.046Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T10:16:52.728Z - Server started on port 8088
+2024-05-02T10:16:52.730Z - Listening on port 5711
+2024-05-02T10:16:52.763Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T10:18:17.849Z - Server started on port 8088
+2024-05-02T10:18:17.851Z - Listening on port 5711
+2024-05-02T10:18:17.875Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T10:18:56.996Z - Server started on port 8088
+2024-05-02T10:18:57.023Z - Listening on port 5711
+2024-05-02T10:18:57.075Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T10:19:26.877Z - Server started on port 8088
+2024-05-02T10:19:26.883Z - Listening on port 5711
+2024-05-02T10:19:26.933Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T10:20:28.848Z - Server started on port 8088
+2024-05-02T10:20:28.850Z - Listening on port 5711
+2024-05-02T10:20:28.881Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T10:21:08.433Z - Server started on port 8088
+2024-05-02T10:21:08.435Z - Listening on port 5711
+2024-05-02T10:21:08.456Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T10:23:27.354Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-05-02T10:23:27.657Z - Data sent to Laravel
+2024-05-02T10:23:27.934Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-05-02T10:23:27.945Z - Data sent to Laravel
+2024-05-02T10:31:28.413Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-05-02T10:31:28.425Z - Data sent to Laravel
+2024-05-02T10:31:29.045Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-05-02T10:31:29.052Z - Data sent to Laravel
+2024-05-02T10:37:28.812Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-05-02T10:37:28.825Z - Data sent to Laravel
+2024-05-02T10:37:29.449Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-05-02T10:37:29.455Z - Data sent to Laravel
+2024-05-02T10:42:36.435Z - Server started on port 8088
+2024-05-02T10:42:36.437Z - Listening on port 5711
+2024-05-02T10:42:36.461Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T10:43:08.511Z - Server started on port 8088
+2024-05-02T10:43:08.520Z - Listening on port 5711
+2024-05-02T10:43:08.578Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T10:44:37.544Z - Server started on port 8088
+2024-05-02T10:44:37.546Z - Listening on port 5711
+2024-05-02T10:44:37.569Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T10:44:53.926Z - Server started on port 8088
+2024-05-02T10:44:53.927Z - Listening on port 5711
+2024-05-02T10:44:53.957Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T10:46:53.177Z - Server started on port 8088
+2024-05-02T10:46:53.179Z - Listening on port 5711
+2024-05-02T10:46:53.203Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T10:47:50.626Z - Server started on port 8088
+2024-05-02T10:47:50.629Z - Listening on port 5711
+2024-05-02T10:47:50.652Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T10:48:10.906Z - Server started on port 8088
+2024-05-02T10:48:10.908Z - Listening on port 5711
+2024-05-02T10:48:10.931Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T10:49:30.070Z - Server started on port 8088
+2024-05-02T10:49:30.072Z - Listening on port 5711
+2024-05-02T10:49:30.098Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T11:31:34.532Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-05-02T11:31:34.765Z - Data sent to Laravel
+2024-05-02T11:31:36.173Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-05-02T11:31:36.182Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-05-02T11:31:36.188Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-05-02T11:31:36.206Z - Data sent to Laravel
+2024-05-02T11:31:36.253Z - Data sent to Laravel
+2024-05-02T11:31:36.275Z - Data sent to Laravel
+2024-05-02T11:59:38.027Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-05-02T11:59:38.044Z - Data sent to Laravel
+2024-05-02T11:59:38.673Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-05-02T11:59:39.200Z - Data sent to Laravel
+2024-05-02T12:08:10.661Z - Server started on port 8088
+2024-05-02T12:08:10.662Z - Listening on port 5711
+2024-05-02T12:08:10.686Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T12:10:27.378Z - Server started on port 8088
+2024-05-02T12:10:27.381Z - Listening on port 5711
+2024-05-02T12:10:27.414Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T12:17:13.929Z - Server started on port 8088
+2024-05-02T12:17:13.939Z - Listening on port 5711
+2024-05-02T12:17:14.009Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T12:18:27.972Z - Server started on port 8088
+2024-05-02T12:18:27.976Z - Listening on port 5711
+2024-05-02T12:18:27.998Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T12:19:48.601Z - Server started on port 8088
+2024-05-02T12:19:48.603Z - Listening on port 5711
+2024-05-02T12:19:48.629Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T12:20:47.541Z - Server started on port 8088
+2024-05-02T12:20:47.543Z - Listening on port 5711
+2024-05-02T12:20:47.565Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T12:21:23.848Z - Server started on port 8088
+2024-05-02T12:21:23.850Z - Listening on port 5711
+2024-05-02T12:21:23.871Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T12:21:53.164Z - Server started on port 8088
+2024-05-02T12:21:53.167Z - Listening on port 5711
+2024-05-02T12:21:53.197Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T12:23:32.077Z - Server started on port 8088
+2024-05-02T12:23:32.085Z - Listening on port 5711
+2024-05-02T12:23:32.114Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T12:25:20.004Z - Server started on port 8088
+2024-05-02T12:25:20.006Z - Listening on port 5711
+2024-05-02T12:25:20.029Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T12:25:44.107Z - Server started on port 8088
+2024-05-02T12:25:44.129Z - Listening on port 5711
+2024-05-02T12:25:44.180Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T12:25:52.291Z - Server started on port 8088
+2024-05-02T12:25:52.295Z - Listening on port 5711
+2024-05-02T12:25:52.337Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T12:28:31.777Z - Server started on port 8088
+2024-05-02T12:28:31.783Z - Listening on port 5711
+2024-05-02T12:28:31.810Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T12:28:57.132Z - Server started on port 8088
+2024-05-02T12:28:57.134Z - Listening on port 5711
+2024-05-02T12:28:57.156Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T12:29:23.043Z - Server started on port 8088
+2024-05-02T12:29:23.045Z - Listening on port 5711
+2024-05-02T12:29:23.066Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T12:34:54.527Z - Server started on port 8088
+2024-05-02T12:34:54.530Z - Listening on port 5711
+2024-05-02T12:34:54.565Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T12:35:42.615Z - Server started on port 8088
+2024-05-02T12:35:42.617Z - Listening on port 5711
+2024-05-02T12:35:42.639Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T12:36:17.998Z - Server started on port 8088
+2024-05-02T12:36:18.003Z - Listening on port 5711
+2024-05-02T12:36:18.031Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T12:37:55.876Z - Server started on port 8088
+2024-05-02T12:37:55.879Z - Listening on port 5711
+2024-05-02T12:37:55.906Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T12:38:05.392Z - Server started on port 8088
+2024-05-02T12:38:05.393Z - Listening on port 5711
+2024-05-02T12:38:05.414Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T12:38:18.766Z - Server started on port 8088
+2024-05-02T12:38:18.768Z - Listening on port 5711
+2024-05-02T12:38:18.794Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T12:39:42.377Z - Server started on port 8088
+2024-05-02T12:39:42.380Z - Listening on port 5711
+2024-05-02T12:39:42.404Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T12:41:57.690Z - Server started on port 8088
+2024-05-02T12:41:57.696Z - Listening on port 5711
+2024-05-02T12:41:57.722Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T12:51:55.085Z - Server started on port 8088
+2024-05-02T12:51:55.094Z - Listening on port 5711
+2024-05-02T12:51:55.120Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T12:53:18.765Z - Server started on port 8088
+2024-05-02T12:53:18.767Z - Listening on port 5711
+2024-05-02T12:53:18.797Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T12:56:19.249Z - Server started on port 8088
+2024-05-02T12:56:19.282Z - Listening on port 5711
+2024-05-02T12:56:19.306Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T12:59:43.384Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-05-02T12:59:44.038Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-05-02T12:59:44.075Z - Data sent to Laravel
+2024-05-02T12:59:44.262Z - Data sent to Laravel
+2024-05-02T12:59:46.708Z - Server started on port 8088
+2024-05-02T12:59:46.709Z - Listening on port 5711
+2024-05-02T12:59:46.730Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T13:04:03.658Z - Server started on port 8088
+2024-05-02T13:04:03.661Z - Listening on port 5711
+2024-05-02T13:04:03.703Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T13:05:43.873Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-05-02T13:05:44.214Z - Data sent to Laravel
+2024-05-02T13:05:44.438Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-05-02T13:05:44.446Z - Data sent to Laravel
+2024-05-02T13:10:03.080Z - Server started on port 8088
+2024-05-02T13:10:03.082Z - Listening on port 5711
+2024-05-02T13:10:03.105Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T13:10:26.445Z - Server started on port 8088
+2024-05-02T13:10:26.447Z - Listening on port 5711
+2024-05-02T13:10:26.474Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T13:13:05.592Z - Server started on port 8088
+2024-05-02T13:13:05.620Z - Listening on port 5711
+2024-05-02T13:13:05.642Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T13:16:49.851Z - Server started on port 8088
+2024-05-02T13:16:49.853Z - Listening on port 5711
+2024-05-02T13:16:49.877Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T13:17:24.310Z - Server started on port 8088
+2024-05-02T13:17:24.312Z - Listening on port 5711
+2024-05-02T13:17:24.339Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T13:18:49.582Z - Server started on port 8088
+2024-05-02T13:18:49.584Z - Listening on port 5711
+2024-05-02T13:18:49.608Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T13:19:27.717Z - Server started on port 8088
+2024-05-02T13:19:27.719Z - Listening on port 5711
+2024-05-02T13:19:27.745Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T13:19:58.774Z - Server started on port 8088
+2024-05-02T13:19:58.776Z - Listening on port 5711
+2024-05-02T13:19:58.802Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T13:20:26.234Z - Server started on port 8088
+2024-05-02T13:20:26.236Z - Listening on port 5711
+2024-05-02T13:20:26.258Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T13:29:46.502Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-05-02T13:29:46.573Z - Data sent to Laravel
+2024-05-02T13:29:47.166Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-05-02T13:29:47.230Z - Data sent to Laravel
+2024-05-02T13:37:07.405Z - Server started on port 8088
+2024-05-02T13:37:07.407Z - Listening on port 5711
+2024-05-02T13:37:07.431Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T13:37:11.981Z - Server started on port 8088
+2024-05-02T13:37:11.985Z - Listening on port 5711
+2024-05-02T13:37:12.041Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T13:38:26.956Z - Server started on port 8088
+2024-05-02T13:38:26.970Z - Listening on port 5711
+2024-05-02T13:38:27.016Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T13:38:35.016Z - Server started on port 8088
+2024-05-02T13:38:35.018Z - Listening on port 5711
+2024-05-02T13:38:35.048Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T13:38:46.253Z - Cannot read properties of undefined (reading 'protocol')
+2024-05-02T13:40:41.907Z - Server started on port 8088
+2024-05-02T13:40:41.909Z - Listening on port 5711
+2024-05-02T13:40:41.939Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T13:41:31.669Z - Server started on port 8088
+2024-05-02T13:41:31.675Z - Listening on port 5711
+2024-05-02T13:41:31.700Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T13:41:45.331Z - Server started on port 8088
+2024-05-02T13:41:45.333Z - Listening on port 5711
+2024-05-02T13:41:45.354Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-05-02T13:42:15.106Z - Cannot read properties of undefined (reading 'protocol')
+2024-05-02T13:43:48.275Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-05-02T13:43:48.790Z - connect ECONNREFUSED ::1:3001
+2024-05-02T13:47:13.713Z - Server started on port 8088
+2024-05-02T13:47:13.715Z - Listening on port 5711
+2024-05-02T13:47:13.738Z - MongoDB Connected : 192.168.89.50
+-----------------------------

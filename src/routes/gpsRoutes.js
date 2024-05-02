@@ -25,9 +25,9 @@ router.route("/avdevices").get(protect, getAllAvailableDevices);
 
 router.route("/teltonika/sendcommand").post(protect, sendCommandTeltonika);
 
-router.route("/geofence/:geoId").get(protect, getGeofence);
+router.route("/geofence/").get(protect, getGeofence);
 router.route("/geofence").post(protect, createNewGeofence);
-router.route("/geofence/:geoId").patch(protect, updateGeofence);
-router.route("/geofence/:geoId").delete(protect, deleteGeofence);
+router.route("/geofence/").patch(protect, updateGeofence);
+router.route("/geofence/").delete(protect, deleteGeofence);
 
 export default router;

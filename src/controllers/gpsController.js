@@ -8,7 +8,6 @@ import {
   sendCommandValidator,
 } from "./validators/gpsApiValidator.js";
 import fs from "fs";
-import device_protocol_type from "../utils/portChecker.js";
 
 // @desc store new device
 // @route POST /api/gps/store
