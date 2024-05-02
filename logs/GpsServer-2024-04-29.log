@@ -1,0 +1,374 @@
+2024-04-29T08:38:33.574Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-29T08:38:34.222Z - Cannot read properties of undefined (reading 'type')
+2024-04-29T08:38:34.240Z - Cannot read properties of undefined (reading 'type')
+2024-04-29T08:39:04.046Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-29T08:39:27.883Z - 
+Server started on port 8088
+2024-04-29T08:39:27.884Z - Listening on port 5711
+2024-04-29T08:39:27.906Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-29T08:39:29.672Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-29T08:40:28.185Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-29T08:40:34.564Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-29T08:41:06.245Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-29T08:44:44.632Z - 
+Server started on port 8088
+2024-04-29T08:44:44.634Z - Listening on port 5711
+2024-04-29T08:44:44.659Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-29T08:45:22.758Z - 
+Server started on port 8088
+2024-04-29T08:45:22.760Z - Listening on port 5711
+2024-04-29T08:45:22.786Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-29T09:29:40.660Z - 
+Server started on port 8088
+2024-04-29T09:29:40.665Z - Listening on port 5711
+2024-04-29T09:29:40.688Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-29T09:34:37.142Z - 
+Server started on port 8088
+2024-04-29T09:34:37.147Z - Listening on port 5711
+2024-04-29T09:34:37.187Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-29T09:34:40.071Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-29T09:34:40.735Z - Data for fmc150 registered to database
+2024-04-29T09:34:40.743Z - E11000 duplicate key error collection: test.traccargpsdatas index: name_1 dup key: { name: "fmc150" }
+2024-04-29T09:36:07.746Z - 
+Server started on port 8088
+2024-04-29T09:36:07.748Z - Listening on port 5711
+2024-04-29T09:36:07.770Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-29T09:36:40.352Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-29T09:36:41.006Z - Data for fmc150 registered to database
+2024-04-29T09:37:32.460Z - 
+Server started on port 8088
+2024-04-29T09:37:32.473Z - Listening on port 5711
+2024-04-29T09:37:32.506Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-29T09:38:18.530Z - Server started on port 8088
+2024-04-29T09:38:18.532Z - Listening on port 5711
+2024-04-29T09:38:18.556Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-29T09:42:40.918Z - Cannot read properties of undefined (reading 'protocol')
+2024-04-29T09:42:41.533Z - Data for fmc150 registered to database
+2024-04-29T09:42:41.556Z - E11000 duplicate key error collection: test.traccargpsdatas index: name_1 dup key: { name: "fmc150" }
+2024-04-29T09:44:41.175Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T09:44:41.739Z - Data sent to Laravel
+2024-04-29T09:44:41.781Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T09:44:41.803Z - Data sent to Laravel
+---------------------------------2024-04-29T09:54:38.652Z - Server started on port 8088
+2024-04-29T09:54:38.665Z - Listening on port 5711
+2024-04-29T09:54:38.766Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-29T09:54:42.874Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T09:54:43.011Z - Data sent to Laravel
+2024-04-29T09:54:45.199Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T09:54:45.216Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T09:54:45.305Z - Data sent to Laravel
+2024-04-29T09:54:45.311Z - Data sent to Laravel
+2024-04-29T09:59:39.039Z - E11000 duplicate key error collection: test.traccargpsdatas index: name_1 dup key: { name: "E-mak" }
+2024-04-29T09:59:39.057Z - E11000 duplicate key error collection: test.traccargpsdatas index: name_1 dup key: { name: "E-mak" }
+2024-04-29T09:59:39.067Z - E11000 duplicate key error collection: test.traccargpsdatas index: name_1 dup key: { name: "E-mak" }
+2024-04-29T09:59:39.073Z - E11000 duplicate key error collection: test.traccargpsdatas index: name_1 dup key: { name: "E-mak" }
+2024-04-29T09:59:39.082Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T09:59:39.122Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T09:59:39.156Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T09:59:39.206Z - Data for E-mak registered to database
+2024-04-29T09:59:39.255Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T09:59:39.280Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T09:59:39.315Z - Data sent to Laravel
+2024-04-29T09:59:39.319Z - Data sent to Laravel
+2024-04-29T09:59:39.335Z - Data sent to Laravel
+2024-04-29T09:59:39.338Z - Data sent to Laravel
+2024-04-29T09:59:39.341Z - Data sent to Laravel
+2024-04-29T10:00:45.039Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T10:00:45.058Z - Data sent to Laravel
+2024-04-29T10:06:04.993Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T10:06:05.009Z - Data sent to Laravel
+2024-04-29T10:06:47.118Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T10:06:47.144Z - Data sent to Laravel
+2024-04-29T10:06:47.680Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T10:06:47.694Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T10:06:47.710Z - Data sent to Laravel
+2024-04-29T10:06:47.713Z - Data sent to Laravel
+2024-04-29T10:08:21.831Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T10:08:21.846Z - Data sent to Laravel
+2024-04-29T10:09:25.814Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T10:09:25.831Z - Data sent to Laravel
+2024-04-29T10:14:08.960Z - Cannot read properties of undefined (reading 'status')
+2024-04-29T10:16:47.582Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T10:16:47.606Z - Data sent to Laravel
+2024-04-29T10:16:48.165Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T10:16:48.181Z - Data sent to Laravel
+2024-04-29T10:17:57.126Z - Data for E-audi registered to database
+2024-04-29T10:19:35.703Z - Server started on port 8088
+2024-04-29T10:19:35.705Z - Listening on port 5711
+2024-04-29T10:19:35.740Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-29T10:19:57.358Z - Server started on port 8088
+2024-04-29T10:19:57.361Z - Listening on port 5711
+2024-04-29T10:19:57.383Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-29T10:20:44.104Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T10:20:44.409Z - Data sent to Laravel
+2024-04-29T10:20:47.314Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T10:20:47.321Z - Data sent to Laravel
+2024-04-29T10:20:47.918Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T10:20:47.950Z - Data sent to Laravel
+2024-04-29T10:26:33.807Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T10:26:33.820Z - Data sent to Laravel
+2024-04-29T10:26:34.484Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T10:26:34.492Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T10:26:34.499Z - Data sent to Laravel
+2024-04-29T10:26:34.500Z - Data sent to Laravel
+2024-04-29T10:28:04.594Z - Server started on port 8088
+2024-04-29T10:28:04.596Z - Listening on port 5711
+2024-04-29T10:28:04.638Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-29T10:28:09.364Z - Server started on port 8088
+2024-04-29T10:28:09.366Z - Listening on port 5711
+2024-04-29T10:28:09.388Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-29T10:29:36.985Z - Server started on port 8088
+2024-04-29T10:29:36.987Z - Listening on port 5711
+2024-04-29T10:29:37.012Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-29T10:30:37.553Z - Server started on port 8088
+2024-04-29T10:30:37.563Z - Listening on port 5711
+2024-04-29T10:30:37.646Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-29T10:32:01.008Z - Server started on port 8088
+2024-04-29T10:32:01.013Z - Listening on port 5711
+2024-04-29T10:32:01.048Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-29T10:32:17.022Z - Server started on port 8088
+2024-04-29T10:32:17.024Z - Listening on port 5711
+2024-04-29T10:32:17.046Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-29T10:33:13.528Z - Server started on port 8088
+2024-04-29T10:33:13.530Z - Listening on port 5711
+2024-04-29T10:33:13.553Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-29T10:33:44.870Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T10:33:45.388Z - Data sent to Laravel
+2024-04-29T10:34:24.394Z - Server started on port 8088
+2024-04-29T10:34:24.396Z - Listening on port 5711
+2024-04-29T10:34:24.420Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-29T10:36:28.877Z - Server started on port 8088
+2024-04-29T10:36:28.879Z - Listening on port 5711
+2024-04-29T10:36:28.902Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-29T10:36:53.401Z - Server started on port 8088
+2024-04-29T10:36:53.403Z - Listening on port 5711
+2024-04-29T10:36:53.438Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-29T10:38:46.862Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T10:38:46.959Z - Data sent to Laravel
+2024-04-29T10:38:47.437Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T10:38:47.448Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T10:38:47.456Z - Data sent to Laravel
+2024-04-29T10:38:47.460Z - Data sent to Laravel
+2024-04-29T10:39:06.196Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T10:39:06.203Z - Data sent to Laravel
+2024-04-29T10:44:27.637Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T10:44:27.645Z - Data sent to Laravel
+2024-04-29T10:50:27.937Z - Server started on port 8088
+2024-04-29T10:50:27.939Z - Listening on port 5711
+2024-04-29T10:50:27.970Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-29T10:52:48.332Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T10:52:48.434Z - Data sent to Laravel
+2024-04-29T10:52:48.912Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T10:52:48.922Z - Data sent to Laravel
+2024-04-29T10:55:24.346Z - Server started on port 8088
+2024-04-29T10:55:24.348Z - Listening on port 5711
+2024-04-29T10:55:24.371Z - MongoDB Connected : 192.168.89.50
+-----------------------------
+2024-04-29T11:02:29.048Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T11:02:29.197Z - Data sent to Laravel
+2024-04-29T11:04:32.012Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T11:04:32.023Z - Data sent to Laravel
+2024-04-29T11:12:30.329Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T11:12:30.376Z - Data sent to Laravel
+2024-04-29T11:14:39.975Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T11:14:39.985Z - Data sent to Laravel
+2024-04-29T11:20:31.343Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T11:20:31.408Z - Data sent to Laravel
+2024-04-29T11:22:34.180Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T11:22:34.189Z - Data sent to Laravel
+2024-04-29T11:30:32.400Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T11:30:32.411Z - Data sent to Laravel
+2024-04-29T11:32:41.158Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T11:32:41.170Z - Data sent to Laravel
+2024-04-29T11:38:32.815Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T11:38:32.824Z - Data sent to Laravel
+2024-04-29T11:40:53.780Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T11:40:53.789Z - Data sent to Laravel
+2024-04-29T11:49:42.805Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T11:49:42.814Z - Data sent to Laravel
+2024-04-29T11:50:54.836Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T11:50:54.860Z - Data sent to Laravel
+2024-04-29T11:52:54.092Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T11:52:54.102Z - Data sent to Laravel
+2024-04-29T11:52:54.712Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T11:52:54.718Z - Data sent to Laravel
+2024-04-29T11:56:43.961Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T11:56:43.971Z - Data sent to Laravel
+2024-04-29T11:58:55.241Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T11:58:55.274Z - Data sent to Laravel
+2024-04-29T11:58:55.868Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T11:58:55.872Z - Data sent to Laravel
+2024-04-29T12:02:35.786Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T12:02:35.796Z - Data sent to Laravel
+2024-04-29T12:04:55.340Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T12:04:55.351Z - Data sent to Laravel
+2024-04-29T12:04:55.974Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T12:04:55.980Z - Data sent to Laravel
+2024-04-29T12:05:45.249Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T12:05:45.262Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T12:05:45.274Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T12:05:45.278Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T12:05:45.283Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T12:05:45.296Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T12:05:45.303Z - Data sent to Laravel
+2024-04-29T12:05:45.304Z - Data sent to Laravel
+2024-04-29T12:05:45.326Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T12:05:45.343Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T12:05:45.353Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T12:05:45.359Z - Data sent to Laravel
+2024-04-29T12:05:45.367Z - Data sent to Laravel
+2024-04-29T12:05:45.368Z - Data sent to Laravel
+2024-04-29T12:05:45.388Z - Data sent to Laravel
+2024-04-29T12:05:45.456Z - Data sent to Laravel
+2024-04-29T12:05:45.479Z - Data sent to Laravel
+2024-04-29T12:05:45.481Z - Data sent to Laravel
+2024-04-29T12:06:56.782Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T12:06:56.792Z - Data sent to Laravel
+2024-04-29T12:08:15.439Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T12:08:15.444Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T12:08:15.448Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T12:08:15.453Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T12:08:15.459Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T12:08:15.463Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T12:08:15.473Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T12:08:15.476Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T12:08:15.479Z - Data sent to Laravel
+2024-04-29T12:08:15.481Z - Data sent to Laravel
+2024-04-29T12:08:15.482Z - Data sent to Laravel
+2024-04-29T12:08:15.484Z - Data sent to Laravel
+2024-04-29T12:08:15.487Z - Data sent to Laravel
+2024-04-29T12:08:15.502Z - Data sent to Laravel
+2024-04-29T12:08:15.506Z - Data sent to Laravel
+2024-04-29T12:08:15.510Z - Data sent to Laravel
+2024-04-29T12:10:02.313Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T12:10:02.326Z - Data sent to Laravel
+2024-04-29T12:11:02.255Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T12:11:02.267Z - Data sent to Laravel
+2024-04-29T12:18:55.520Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T12:18:56.445Z - Data sent to Laravel
+2024-04-29T12:20:57.407Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T12:20:57.427Z - Data sent to Laravel
+2024-04-29T12:20:59.886Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T12:20:59.900Z - Data sent to Laravel
+2024-04-29T12:21:00.474Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T12:21:00.504Z - Data sent to Laravel
+2024-04-29T12:26:58.161Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T12:26:58.204Z - Data sent to Laravel
+2024-04-29T12:26:58.720Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T12:26:58.871Z - Data sent to Laravel
+2024-04-29T12:36:28.523Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T12:36:28.558Z - Data sent to Laravel
+2024-04-29T12:38:56.545Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T12:38:56.556Z - Data sent to Laravel
+2024-04-29T12:46:59.768Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T12:46:59.789Z - Data sent to Laravel
+2024-04-29T12:47:00.365Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T12:47:00.374Z - Data sent to Laravel
+2024-04-29T12:55:00.401Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T12:55:00.451Z - Data sent to Laravel
+2024-04-29T13:03:07.300Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T13:03:07.312Z - Data sent to Laravel
+2024-04-29T13:11:02.556Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T13:11:02.573Z - Data sent to Laravel
+2024-04-29T13:23:03.460Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T13:23:03.471Z - Data sent to Laravel
+2024-04-29T13:23:04.005Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T13:23:04.052Z - Data sent to Laravel
+2024-04-29T13:29:10.333Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T13:29:10.346Z - Data sent to Laravel
+2024-04-29T13:35:02.091Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T13:35:02.116Z - Data sent to Laravel
+2024-04-29T13:39:05.775Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T13:39:05.803Z - Data sent to Laravel
+2024-04-29T13:39:06.293Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T13:39:06.298Z - Data sent to Laravel
+2024-04-29T13:47:07.615Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T13:47:07.629Z - Data sent to Laravel
+2024-04-29T13:47:08.189Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T13:47:08.260Z - Data sent to Laravel
+2024-04-29T13:51:48.275Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T13:51:48.288Z - Data sent to Laravel
+2024-04-29T13:53:04.739Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T13:53:04.779Z - Data sent to Laravel
+2024-04-29T13:53:07.170Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T13:53:07.176Z - Data sent to Laravel
+2024-04-29T13:53:07.742Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T13:53:07.748Z - Data sent to Laravel
+2024-04-29T13:55:13.350Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T13:55:13.373Z - Data sent to Laravel
+2024-04-29T13:59:07.771Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T13:59:07.790Z - Data sent to Laravel
+2024-04-29T13:59:08.337Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T13:59:08.368Z - Data sent to Laravel
+2024-04-29T14:01:07.531Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T14:01:07.541Z - Data sent to Laravel
+2024-04-29T14:23:07.526Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T14:23:07.555Z - Data sent to Laravel
+2024-04-29T14:29:13.864Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T14:29:13.898Z - Data sent to Laravel
+2024-04-29T14:29:14.434Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T14:29:14.449Z - Data sent to Laravel
+2024-04-29T14:33:08.770Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T14:33:08.782Z - Data sent to Laravel
+2024-04-29T14:35:29.790Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T14:35:29.810Z - Data sent to Laravel
+2024-04-29T14:41:11.777Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T14:41:11.830Z - Data sent to Laravel
+2024-04-29T14:41:12.377Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T14:41:12.403Z - Data sent to Laravel
+2024-04-29T14:42:43.548Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T14:42:43.561Z - Data sent to Laravel
+2024-04-29T14:57:13.792Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T14:57:13.822Z - Data sent to Laravel
+2024-04-29T14:57:14.372Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T14:57:14.393Z - Data sent to Laravel
+2024-04-29T15:07:14.815Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T15:07:14.840Z - Data sent to Laravel
+2024-04-29T15:07:15.393Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T15:07:15.399Z - Data sent to Laravel
+2024-04-29T15:13:15.162Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T15:13:15.175Z - Data sent to Laravel
+2024-04-29T15:13:15.745Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T15:13:15.754Z - Data sent to Laravel
+2024-04-29T15:21:24.015Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T15:21:24.036Z - Data sent to Laravel
+2024-04-29T15:27:16.971Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T15:27:16.983Z - Data sent to Laravel
+2024-04-29T15:27:17.547Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T15:27:17.552Z - Data sent to Laravel
+2024-04-29T15:27:30.010Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T15:27:30.016Z - Data sent to Laravel
+2024-04-29T15:27:32.295Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T15:27:32.330Z - Data sent to Laravel
+2024-04-29T15:29:16.632Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T15:29:16.656Z - Data sent to Laravel
+2024-04-29T15:29:17.219Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T15:29:17.277Z - Data sent to Laravel
+2024-04-29T15:29:41.411Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T15:29:41.425Z - Data sent to Laravel
+2024-04-29T15:35:17.336Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T15:35:17.374Z - Data sent to Laravel
+2024-04-29T15:35:17.945Z - GPS with provided IMEI exists, forwarding to Laravel
+2024-04-29T15:35:17.997Z - Data sent to Laravel
