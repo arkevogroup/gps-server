@@ -1,11 +1,19 @@
 //import { bool, boolean } from "joi";
 import mongoose from "mongoose";
 
-const gpsSchema = mongoose.Schema(
-  {
-    name: {
-      type: String,
-      required: true,
+const gpsSchema = mongoose.Schema({
+        imei : {
+            type : String,
+            required : true,
+            unique : true
+        },
+        device_id : {
+            type: mongoose.Schema.Types.ObjectId, ref: 'Device'
+        },
+        alternate_imei : {
+            type : String,
+            unique : true
+        }
     },
     imei: {
       type: String,
