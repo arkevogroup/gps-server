@@ -13,7 +13,6 @@ const gpsSchema = mongoose.Schema(
     },
     alternate_imei: {
       type: String,
-      unique: true,
     },
   },
   {

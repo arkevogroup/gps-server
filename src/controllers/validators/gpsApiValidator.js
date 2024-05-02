@@ -13,6 +13,7 @@ const createNewGpsValidator = Joi.object({
         .messages({
             'any.required': 'Device field is required!'
         }),
+    alternate_imei : Joi.string()
 })
 
 const createNewCommandValidator = Joi.object({

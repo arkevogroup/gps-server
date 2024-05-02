@@ -23,7 +23,8 @@ const createNewGps = asyncHandler(async (req, res) =>{
 
       const gps = new GpsModel({
           imei : data.imei,
-          device_id : data.device_id
+          device_id : data.device_id,
+          alternate_imei: data.alternate_imei? data.alternate_imei : null
       });
   
       const createdGps = await gps.save();
