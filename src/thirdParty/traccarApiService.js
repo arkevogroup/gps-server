@@ -1,49 +1,54 @@
 import asyncHandler from "express-async-handler";
-import traccarGps from "./models/traccarGpsData.js";
+import { isInsideGeocode } from "../services/geocodeService.js";
 import writeLog from "../utils/writeLog.js";
 import axios from "axios";
+
+import GpsModel from "../models/GpsModel.js";
 
 // Handle data from Traccar server
 const fromTraccarData = asyncHandler(async (req, res) => {
   try {
     const body = req.body;
-    console.log(req.body.position.protocol)
-    if (body.device.status === "online") {
+    if (body.device.status === "online" && req.body.position?.protocol) {
       const deviceExists = await doesDeviceExist(body.device?.uniqueId);
       if (!deviceExists) {
-        await registerDevice(body);
+        writeLog(
+          `${body.device.name}:${body.device?.uniqueId} do not exist in database`
+        );
       } else {
-        writeLog("GPS with provided IMEI exists, forwarding to Laravel");
-        //sendToLaravel(body);
+        writeLog(
+          `${body.device.name}:${body.device?.uniqueId} exist in database`
+        );
       }
+      //console.log(latitude,longitude);
+      const location = [body.position.latitude, body.position.longitude];
+      isInsideGeocode(location);
+      //console.log(location);
     }
-    res.status(200).send("GPS data received successfully");
   } catch (error) {
     writeLog(error.message);
-    res
-      .status(500)
-      .json({ message: "Internal Server Error", error: error.message });
   }
 });
 
 // Function to check if the device exists in the database
 const doesDeviceExist = async (uniqueId) => {
-  const existingDevice = await traccarGps.findOne({ imei: uniqueId });
+  const existingDevice = await GpsModel.findOne({ imei: uniqueId });
   return !!existingDevice;
 };
 
 // Function to register the device in the database
 const registerDevice = async (body) => {
   const { device, position } = body;
-  const newGpsData = new traccarGps({
+  const newGpsData = new GpsModel({
     name: device.name,
     imei: device.uniqueId,
     protocol: position.protocol,
   });
-   console.log(newGpsData)
   await newGpsData.save();
 
-  writeLog(`Details for ${device?.name} registered to database`);
+  writeLog(
+    `${body.device.name}:${body.device?.uniqueId} registered to database`
+  );
 };
 
 // Function to forward Traccar data to Laravel
@@ -65,11 +70,15 @@ async function sendToLaravel(data) {
 const fromLaravel = asyncHandler(async (req, res) => {
   try {
     const id = req.query.id;
-    const deviceExist = await traccarGps.findOne({ imei: id });
+    const deviceExist = await GpsModel.findOne({ imei: id });
     if (deviceExist) {
       res.status(200).json(deviceExist);
     } else {
-      res.status(404).json({ message: `Device with IMEI=${id} do not exist in traccar server` });
+      res
+        .status(404)
+        .json({
+          message: `Device with IMEI=${id} do not exist in traccar server`,
+        });
     }
   } catch (error) {
     writeLog(error.message);
