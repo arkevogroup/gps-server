@@ -7,7 +7,7 @@ import writeLog from "../../utils/writeLog.js";
 config();
 
 const connectDB = async () =>{
-    c//onst dburl = "mongodb://192.168.89.50:27017,192.168.89.50:27018,192.168.89.50:27019/?replicaSet=myReplicaSet";
+    //onst dburl = "mongodb://192.168.89.50:27017,192.168.89.50:27018,192.168.89.50:27019/?replicaSet=myReplicaSet";
 
     try {
         // const conn = await mongoose.connect(process.env.MONGO_URI_LOCAL, {
