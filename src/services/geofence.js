@@ -3,8 +3,11 @@ import geoFenceModel from "../models/geofenceModel.js";
 import { mongoose } from "mongoose";
 import gpsModel from "../models/GpsModel.js";
 import writeLog from "../utils/writeLog.js";
+import validateCoordinates from "../controllers/validators/geofenceCoordValidate.js";
 
-//get geofence by id
+// @desc get geofences or geofence/:geoId per gps_id
+// @route POST /api/gps/geofence or /api/gps/geofence/:geoId
+// @access private api key
 const getGeofence = asyncHandler(async (req, res) => {
   try {
     const { geoId } = req.query;
@@ -36,9 +39,20 @@ const getGeofence = asyncHandler(async (req, res) => {
   }
 });
 
-const createNewGeofence = asyncHandler(async (req, res) => {
+// @desc store new geofences
+// @route POST /api/gps/geofence
+// @access private api key
+const createNewGeofence = async (req, res) => {
   try {
-    const {geo_name, gps_id, geo_coord } = req.body;
+    const { geo_name, gps_id, geo_coord } = req.body;
+
+    const validation = await validateCoordinates(geo_coord.coordinates);
+    
+    if (!validation.isValid) {
+      return res.status(400).json({
+        message: validation.message,
+      });
+    }
 
     const existingDevice = await gpsModel.findOne({ _id: gps_id }).exec();
     if (!existingDevice) {
@@ -47,11 +61,20 @@ const createNewGeofence = asyncHandler(async (req, res) => {
       });
     }
 
+    const existingGeofence = await geoFenceModel.findOne({ geo_name: geo_name });
+    if (existingGeofence) {
+      return res.status(409).json({
+        message: `Geofence: '${geo_name}' already exists`,
+      });
+    }
+
     const newGeofence = new geoFenceModel({
       _id: new mongoose.Types.ObjectId(),
       geo_name,
       gps_id,
-      geo_coord,
+      geo_coord: {
+        coordinates: validation.correctedCoordinates
+      },
     });
 
     const result = await newGeofence.save();
@@ -66,9 +89,14 @@ const createNewGeofence = asyncHandler(async (req, res) => {
       error: err.message,
     });
   }
-});
+};
 
-//update geofence coordinates
+
+
+
+// @desc udate geofence
+// @route POST /api/gps/geofence/:geoId
+// @access private api key
 const updateGeofence = asyncHandler(async (req, res) => {
   try {
     const { geoId } = req.query;
@@ -78,6 +106,13 @@ const updateGeofence = asyncHandler(async (req, res) => {
     const { coordinates } = req.body;
     const existingGeofence = await geoFenceModel.findOne({ _id: geoId }).exec();
 
+    const validation = await validateCoordinates(coordinates);
+    
+    if (!validation.isValid) {
+      return res.status(400).json({
+        message: validation.message,
+      });
+    }
     if (!existingGeofence) {
       return res.status(400).json({
         message: `Geofence id: '${geoId}' does not exist`,
@@ -85,7 +120,7 @@ const updateGeofence = asyncHandler(async (req, res) => {
     }
 
     const updateGeo = {};
-    if (coordinates) updateGeo["geo_coord.coordinates"] = coordinates;
+    if (coordinates) updateGeo["geo_coord.coordinates"] = validation.correctedCoordinates;
     const result = await geoFenceModel
       .updateOne({ _id: geoId }, { $set: updateGeo })
       .exec();
@@ -106,7 +141,9 @@ const updateGeofence = asyncHandler(async (req, res) => {
   }
 });
 
-//delete geofence
+// @desc delete geofence
+// @route POST /api/gps/geofence/:geoId
+// @access private api key
 const deleteGeofence = asyncHandler(async (req, res) => {
   try {
     const { geoId } = req.query;

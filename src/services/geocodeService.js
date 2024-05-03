@@ -1,18 +1,8 @@
 import * as turf from "@turf/turf";
-import fs from "fs";
 import geoFenceModel from "../models/geofenceModel.js";
 
-const isInsideGeocode = async (id, location) => {
-    // const geofenceCordinates = [
-    //   [
-    //     [41.4046, 19.7905],
-    //     [41.3273, 19.9292],
-    //     [41.2665, 19.8715],
-    //     [41.316, 19.763],
-    //     [41.4046, 19.7905],
-    //   ],
-    // ];
-
+//@desc function is called by fromTraccarData/traccarApiService.js with imei and lat,long coordinates
+const isInsideGeocode = async (imei,id, location) => {
   try {
     const geofenceData = await geoFenceModel
       .findOne({ gps_id: id })
@@ -21,22 +11,53 @@ const isInsideGeocode = async (id, location) => {
 
     if (!geofenceData) {
       console.log(`device ${id} has no geofence zone`);
+      return;
     }
-    const geofenceCordinates = [geofenceData.geo_coord.coordinates];
-    //console.log(geofenceCordinate);
+
+    const geofenceCoordinates = geofenceData.geo_coord.coordinates;
+
     const pt = turf.point(location);
-    const poly = turf.polygon(geofenceCordinates);
+    const poly = turf.polygon([geofenceCoordinates]);
     const isInsideZone = turf.booleanPointInPolygon(pt, poly);
 
     if (isInsideZone && geofenceData) {
-      console.log(`device ${id} is inside zone ${geofenceData.geo_name}`);
+      //console.log(`device ${id} is inside zone ${geofenceData.geo_name}`);
+     
     } else {
       console.log(`device ${id} is outside zone ${geofenceData.geo_name}`);
+      const sos_data = {
+        geofence_name: geofenceData.geo_name,
+        imei: imei,
+        last_location: location,
+        time: new Date().toISOString(),
+      };
+      laravelCallback(sos_data);
     }
-
   } catch (error) {
-    return error.message;
+    console.error(error.message);
   }
 };
+
+// @desc if (isInsideZone && geofenceData) => false data is forwarded to laravel callback as a sos message
+async function laravelCallback(data) {
+  try {
+    console.log("callback test", data);
+    // const response = await fetch('http://localhost/backend/api/sos', {
+    //   method: 'POST',
+    //   headers: {
+    //     'Content-Type': 'application/json',
+    //     'token'
+    //   },
+    //   body: JSON.stringify(data),
+    // });
+
+    // const responseData = await response.json();
+    // console.log(responseData);
+
+    // return responseData;
+  } catch (err) {
+    console.error(err);
+  }
+}
 
 export { isInsideGeocode };

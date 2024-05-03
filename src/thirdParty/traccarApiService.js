@@ -22,8 +22,7 @@ const fromTraccarData = asyncHandler(async (req, res) => {
       //console.log(deviceExists);
 
       const location = [body.position.latitude, body.position.longitude];
-      const check =isInsideGeocode(gps_id,location);
-      //console.log(check);
+      isInsideGeocode(body.device?.uniqueId,gps_id,location);
     }
   } catch (error) {
     writeLog(error.message);
@@ -37,7 +36,7 @@ const isRegistered = async (uniqueId) => {
   return { isRegistered: !!existingDevice, id: id};
 };
 
-// TODO: 
+// TODO: register device to traccar
 const registerDevice = async (body) => {
   const { device, position } = body;
   const newGpsData = new GpsModel({

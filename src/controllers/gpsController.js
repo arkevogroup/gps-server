@@ -49,13 +49,32 @@ const createNewGps = asyncHandler(async (req, res) =>{
 });
 
 
-
+// @desc Perform asynchronous operations to post data to Traccar server
+// @route POST /api/gps/command/store
+// @access private api key
 async function post_to_traccar(data) {
   try {
+   
+    // const response = await fetch('traccar_api_url', {
+    //   method: 'POST',
+    //   headers: {
+    //     'Content-Type': 'application/json',
+    //     'token'
+    //   },
+    //   body: JSON.stringify(data),
+    // });
+
+    // const responseData = await response.json();
+    // console.log(responseData);
+
+
+    // return responseData;
   } catch (err) {
+    // Handle errors if any
     console.error(err);
   }
 }
+
 
 // @desc store new device
 // @route POST /api/gps/command/store
