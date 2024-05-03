@@ -12,14 +12,16 @@ const getGeofence = asyncHandler(async (req, res) => {
     if (geoId) {
       const doc = await geoFenceModel
         .findOne({ _id: geoId })
-        .select("_id gps_id geo_coord")
+        .select("_id geo_name gps_id geo_coord")
         .exec();
       if (!doc) {
         return res.status(404).json({ message: "No geofence found" });
       }
       return res.status(200).json(doc);
     } else {
-      const doc = await geoFenceModel.find().exec();
+      const doc = await geoFenceModel.find()
+      .select("_id geo_name gps_id geo_coord")
+      .exec();
       res.status(200).json({
         count: doc.length,
         geofence: doc,
@@ -36,7 +38,7 @@ const getGeofence = asyncHandler(async (req, res) => {
 
 const createNewGeofence = asyncHandler(async (req, res) => {
   try {
-    const { gps_id, geo_coord } = req.body;
+    const {geo_name, gps_id, geo_coord } = req.body;
 
     const existingDevice = await gpsModel.findOne({ _id: gps_id }).exec();
     if (!existingDevice) {
@@ -47,6 +49,7 @@ const createNewGeofence = asyncHandler(async (req, res) => {
 
     const newGeofence = new geoFenceModel({
       _id: new mongoose.Types.ObjectId(),
+      geo_name,
       gps_id,
       geo_coord,
     });

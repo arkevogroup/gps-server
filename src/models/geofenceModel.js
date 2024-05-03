@@ -9,6 +9,9 @@ const geofenceSchema = new mongoose.Schema({
         ref: 'Gps',
         required: true
     },
+    geo_name:{
+        type: String
+    },
     geo_coord: {
         type: {
             coordinates: [[Number]], 

@@ -6,24 +6,24 @@ import axios from "axios";
 import GpsModel from "../models/GpsModel.js";
 
 // Handle data from Traccar server
+//Describe
 const fromTraccarData = asyncHandler(async (req, res) => {
   try {
     const body = req.body;
     if (body.device.status === "online" && req.body.position?.protocol) {
-      const deviceExists = await doesDeviceExist(body.device?.uniqueId);
-      if (!deviceExists) {
+      const deviceExists = await isRegistered(body.device?.uniqueId);
+      const gps_id = deviceExists.id;
+      if (!deviceExists.isRegistered) {
         writeLog(
           `${body.device.name}:${body.device?.uniqueId} do not exist in database`
         );
-      } else {
-        writeLog(
-          `${body.device.name}:${body.device?.uniqueId} exist in database`
-        );
-      }
-      //console.log(latitude,longitude);
+        return 
+      } 
+      //console.log(deviceExists);
+
       const location = [body.position.latitude, body.position.longitude];
-      isInsideGeocode(location);
-      //console.log(location);
+      const check =isInsideGeocode(gps_id,location);
+      //console.log(check);
     }
   } catch (error) {
     writeLog(error.message);
@@ -31,12 +31,13 @@ const fromTraccarData = asyncHandler(async (req, res) => {
 });
 
 // Function to check if the device exists in the database
-const doesDeviceExist = async (uniqueId) => {
+const isRegistered = async (uniqueId) => {
   const existingDevice = await GpsModel.findOne({ imei: uniqueId });
-  return !!existingDevice;
+  const id = existingDevice._id.toString();
+  return { isRegistered: !!existingDevice, id: id};
 };
 
-// Function to register the device in the database
+// TODO: 
 const registerDevice = async (body) => {
   const { device, position } = body;
   const newGpsData = new GpsModel({
