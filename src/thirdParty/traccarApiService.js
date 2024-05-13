@@ -22,7 +22,7 @@ const fromTraccarData = asyncHandler(async (req, res) => {
       //console.log(deviceExists);
 
       const location = [body.position.latitude, body.position.longitude];
-      isInsideGeocode(body.device?.uniqueId,gps_id,location);
+      await isInsideGeocode(body.device?.uniqueId,gps_id,location);
     }
   } catch (error) {
     writeLog(error.message);

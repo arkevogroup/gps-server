@@ -31,7 +31,7 @@ const isInsideGeocode = async (imei,id, location) => {
         last_location: location,
         time: new Date().toISOString(),
       };
-      laravelCallback(sos_data);
+      await laravelCallback(sos_data);
     }
   } catch (error) {
     console.error(error.message);
