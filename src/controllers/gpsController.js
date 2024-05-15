@@ -7,74 +7,56 @@ import {
   createNewCommandValidator,
   sendCommandValidator,
 } from "./validators/gpsApiValidator.js";
-import fs from "fs";
+import { register_Device } from "../thirdParty/controller/traccar.js";
 
 // @desc store new device
 // @route POST /api/gps/store
 // @access private api key
-const createNewGps = asyncHandler(async (req, res) =>{
+const createNewGps = asyncHandler(async (req, res) => {
   try {
-      const data = await createNewGpsValidator.validateAsync(req.body)
-      let checkAllowedDevicesIds = await DeviceModel.findOne({_id :data.device_id })
-      if(checkAllowedDevicesIds === null) {
-          res.status(404).json({message: "This device id does not exist!"});
-          return
-      }      
+    const data = await createNewGpsValidator.validateAsync(req.body);
+    let checkAllowedDevicesIds = await DeviceModel.findOne({
+      _id: data.device_id,
+    });
+    if (checkAllowedDevicesIds === null) {
+      res.status(404).json({ message: "This device id does not exist!" });
+      return;
+    }
 
-      const gps = new GpsModel({
-          imei : data.imei,
-          device_id : data.device_id,
-          alternate_imei: data.alternate_imei? data.alternate_imei : null
-      });
-  
-      const createdGps = await gps.save();
-  
-      let response = {
-          message :`GPS device with imei: ${createdGps.imei} was added sucessfully!`, 
-          data : createdGps
-      }
+    const gps = new GpsModel({
+      imei: data.imei,
+      device_id: data.device_id,
+      alternate_imei: data.alternate_imei ? data.alternate_imei : null,
+    });
 
-      res.status(200).json(response);
+    const createdGps = await gps.save();
 
+    const register_traccar = await register_Device(
+      createdGps._id,
+      createdGps.imei
+    );
+    let response = {
+      message: `GPS device with imei: ${createdGps.imei} was added sucessfully!`,
+      data: createdGps,
+      traccar_data: register_traccar,
+    };
+
+    res.status(200).json(response);
   } catch (error) {
-      let response
-      if ( (error.code ?? false) && error.code == "11000" ){
-          response = {message :`GPS device with imei: ${error.keyValue.imei} already exists!`}
-          res.status(400).json(response)
-      }else{
-          response = {message : error.details ? error.details[0].message : error.message }
-          res.status(400).json(response)
-      } 
+    let response;
+    if ((error.code ?? false) && error.code == "11000") {
+      response = {
+        message: `GPS device with imei: ${error.keyValue.imei} already exists!`,
+      };
+      res.status(400).json(response);
+    } else {
+      response = {
+        message: error.details ? error.details[0].message : error.message,
+      };
+      res.status(400).json(response);
+    }
   }
 });
-
-
-// @desc Perform asynchronous operations to post data to Traccar server
-// @route POST /api/gps/command/store
-// @access private api key
-async function post_to_traccar(data) {
-  try {
-   
-    // const response = await fetch('traccar_api_url', {
-    //   method: 'POST',
-    //   headers: {
-    //     'Content-Type': 'application/json',
-    //     'token'
-    //   },
-    //   body: JSON.stringify(data),
-    // });
-
-    // const responseData = await response.json();
-    // console.log(responseData);
-
-
-    // return responseData;
-  } catch (err) {
-    // Handle errors if any
-    console.error(err);
-  }
-}
-
 
 // @desc store new device
 // @route POST /api/gps/command/store
