@@ -2,12 +2,11 @@ import asyncHandler from "express-async-handler";
 import GpsModel from "../models/GpsModel.js";
 import DeviceModel from "../models/DeviceModel.js";
 import CommandModel from "../models/CommandModel.js";
-import {
-  createNewGpsValidator,
-  createNewCommandValidator,
-  sendCommandValidator,
-} from "./validators/gpsApiValidator.js";
-import { register_Device } from "../thirdParty/controller/traccar.js";
+import {createNewCommandValidator, createNewGpsValidator, sendCommandValidator,} from "./validators/gpsApiValidator.js";
+import TraccarApi from "../thirdParty/controller/traccar.js";
+import writeLog from "../utils/writeLog.js";
+
+const traccar_Serve = new TraccarApi();
 
 // @desc store new device
 // @route POST /api/gps/store
@@ -15,48 +14,92 @@ import { register_Device } from "../thirdParty/controller/traccar.js";
 const createNewGps = asyncHandler(async (req, res) => {
   try {
     const data = await createNewGpsValidator.validateAsync(req.body);
-    let checkAllowedDevicesIds = await DeviceModel.findOne({
-      _id: data.device_id,
-    });
-    if (checkAllowedDevicesIds === null) {
-      res.status(404).json({ message: "This device id does not exist!" });
-      return;
+
+    // Check if device exists
+    const checkAllowedDevicesIds = await DeviceModel.findById(data.device_id);
+    if (!checkAllowedDevicesIds) {
+      return res.status(404).json({ message: "This device id does not exist!" });
+    }
+
+    let registerResult = null;
+    if (data.device_id !== "65ef2a0a11d017040e1d202e") {
+      registerResult = await traccar_Serve.registerDevice(data.imei, data.imei);
     }
 
     const gps = new GpsModel({
       imei: data.imei,
       device_id: data.device_id,
-      alternate_imei: data.alternate_imei ? data.alternate_imei : null,
+      alternate_imei: data.alternate_imei || null,
+      traccar_dev_id: registerResult?.id || null,
     });
 
     const createdGps = await gps.save();
 
-    const register_traccar = await register_Device(
-      createdGps._id,
-      createdGps.imei
-    );
-    let response = {
-      message: `GPS device with imei: ${createdGps.imei} was added sucessfully!`,
+    const response = {
+      message: `GPS device with imei: ${createdGps.imei} was added successfully!`,
       data: createdGps,
-      traccar_data: register_traccar,
+      traccar_data: registerResult?.id || null,
     };
 
-    res.status(200).json(response);
+    return res.status(201).json(response);
   } catch (error) {
     let response;
-    if ((error.code ?? false) && error.code == "11000") {
+    if (error.code && error.code === 11000) {
       response = {
         message: `GPS device with imei: ${error.keyValue.imei} already exists!`,
       };
-      res.status(400).json(response);
+      return res.status(409).json(response);
     } else {
       response = {
         message: error.details ? error.details[0].message : error.message,
       };
-      res.status(400).json(response);
+      return res.status(400).json(response);
     }
   }
 });
+
+
+// @desc delete an existing device
+// @route POST /api/gps/delete
+// @access private api key
+const deleteGps = asyncHandler(async (req, res) => {
+  try {
+    const deviceId = req.params.id;
+
+    // Check if device exists
+    const existingDevice = await GpsModel.findById(deviceId);
+    if (!existingDevice) {
+      return res.status(404).json({ message: `Device with id ${deviceId} does not exist` });
+    }
+
+    // Delete device from Traccar if it exists
+    let traccarDeletionMessage = '';
+    if (existingDevice.traccar_dev_id) {
+      try {
+        await traccar_Serve.deleteDevice(parseInt(existingDevice.traccar_dev_id));
+        traccarDeletionMessage = `Device ${existingDevice.traccar_dev_id} deleted from Traccar`;
+      } catch (error) {
+        console.error('Error deleting device from Traccar:', error);
+        traccarDeletionMessage = '';
+      }
+    }
+
+    // Delete device from server
+    await GpsModel.findByIdAndDelete(deviceId);
+
+    // Return response
+    const responseMessage = traccarDeletionMessage
+        ? { result1: traccarDeletionMessage, result2: `Device with id ${deviceId} deleted from server` }
+        : { message: `Device with id ${deviceId} deleted from server` };
+    writeLog(responseMessage);
+    return res.status(200).json(responseMessage);
+  } catch (error) {
+    writeLog(error);
+    return res.status(500).json({ message: 'Internal server error' });
+  }
+});
+
+
 
 // @desc store new device
 // @route POST /api/gps/command/store
@@ -92,7 +135,7 @@ const createNewCommand = asyncHandler(async (req, res) => {
       response = {
         message: `Command: ${error.keyValue.command_name} already exists!`,
       };
-      res.status(400).json(response);
+      res.status(409).json(response);
     } else {
       response = {
         message: error.details ? error.details[0].message : error.message,
@@ -191,24 +234,14 @@ const sendCommandTeltonika = asyncHandler(async (req, res) => {
   }
 });
 
-const traccar = asyncHandler(async (req, res) => {
-  try {
-  } catch (error) {
-    let response;
-    response = {
-      message: error.details ? error.details[0].message : error.message,
-    };
-    res.status(400).json(response);
-  }
-});
 
 //modelet e GPS bashk me porten, => getAllCommands dhe createNewCommand me id e modelit te GPS
 
 export {
   createNewGps,
+  deleteGps,
   createNewCommand,
   getAllCommands,
   getAllAvailableDevices,
   sendCommandTeltonika,
-  traccar,
 };

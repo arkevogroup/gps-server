@@ -10,7 +10,7 @@ const isInsideGeocode = async (imei,id, location) => {
       .exec();
 
     if (!geofenceData) {
-      console.log(`device ${id} has no geofence zone`);
+      //console.log(`device ${id} has no geofence zone`);
       return;
     }
 

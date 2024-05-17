@@ -14,6 +14,9 @@ const gpsSchema = mongoose.Schema(
     alternate_imei: {
       type: String,
     },
+    traccar_dev_id: {
+          type: String,
+      },
   },
   {
     timestamps: true,

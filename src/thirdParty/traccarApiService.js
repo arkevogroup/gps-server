@@ -4,7 +4,6 @@ import axios from "axios";
 import GpsModel from "../models/GpsModel.js";
 import { isInsideGeocode } from "../services/geocodeService.js";
 import writeLog from "../utils/writeLog.js";
-import {register_Device} from './controller/traccar.js';
 const app = express();
 
 
@@ -12,7 +11,7 @@ const app = express();
 const fromTraccarData = asyncHandler(async (req, res) => {
   const { device, position } = req.body;
 
-  if (device.status !== "online" || !position?.protocol) return;
+  if (device?.status !== "online" || !position?.protocol) return;
 
   try {
     const { id } = await isRegistered(device?.uniqueId);
@@ -49,20 +48,7 @@ const sendToLaravel = async (data) => {
   }
 };
 
-// Register new device to Traccar
-const createDevice = asyncHandler(async (req, res) => {
-  try {
-    const device_data = { 
-      name: req.body.deviceName,
-      uniqueId: req.body.imei
-     };
-    await register_Device(device_data);
-    res.sendStatus(200);
-  } catch (error) {
-    writeLog(error.message);
-    res.status(500).json({ message: "Internal Server Error", error: error.message });
-  }
-});
+
 
 
 

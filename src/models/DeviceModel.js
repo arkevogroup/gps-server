@@ -18,7 +18,7 @@ const deviceSchema = mongoose.Schema({
 )
 
 deviceSchema.methods.checkDeviceTeltonika = async function () {
-    if (this.protocol_name == 'Teltonika')
+    if (this.protocol_name === 'Teltonika')
     return true
 }
 
