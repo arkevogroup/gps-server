@@ -4,7 +4,7 @@ import DeviceModel from "../models/DeviceModel.js";
 import CommandModel from "../models/CommandModel.js";
 import {createNewCommandValidator, createNewGpsValidator, sendCommandValidator,} from "./validators/gpsApiValidator.js";
 import TraccarApi from "../thirdParty/controller/traccar.js";
-import writeLog from "../utils/writeLog.js";
+import systemLogs from "../utils/systemLogs.js";
 
 const traccar_Serve = new TraccarApi();
 
@@ -91,11 +91,11 @@ const deleteGps = asyncHandler(async (req, res) => {
     const responseMessage = traccarDeletionMessage
         ? { result1: traccarDeletionMessage, result2: `Device with id ${deviceId} deleted from server` }
         : { message: `Device with id ${deviceId} deleted from server` };
-    writeLog(responseMessage);
+    systemLogs(responseMessage);
     return res.status(200).json(responseMessage);
   } catch (error) {
-    writeLog(error);
-    return res.status(500).json({ message: 'Internal server error' });
+    systemLogs(error);
+    return res.status(500).json({ message: 'Invalid Id provided' });
   }
 });
 

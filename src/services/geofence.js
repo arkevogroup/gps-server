@@ -2,7 +2,7 @@ import asyncHandler from "express-async-handler";
 import geoFenceModel from "../models/geofenceModel.js";
 import { mongoose } from "mongoose";
 import gpsModel from "../models/GpsModel.js";
-import writeLog from "../utils/writeLog.js";
+import systemLogs from "../utils/systemLogs.js";
 import validateCoordinates from "../controllers/validators/geofenceCoordValidate.js";
 
 // @desc get geofences or geofence/:geoId per gps_id
@@ -35,7 +35,7 @@ const getGeofence = asyncHandler(async (req, res) => {
       message: "Internal Server Error",
       error: err.message,
     });
-    writeLog(err);
+    systemLogs(err);
   }
 });
 
@@ -78,7 +78,7 @@ const createNewGeofence = async (req, res) => {
     });
 
     const result = await newGeofence.save();
-    writeLog(`Geofence for gps: ${gps_id} created `);
+    systemLogs(`Geofence for gps: ${gps_id} created `);
     return res.status(201).json({
       message: "Geofence created successfully",
       createdGeofence: result,
@@ -130,7 +130,7 @@ const updateGeofence = asyncHandler(async (req, res) => {
         .status(400)
         .json({ message: "No geofence found for the provided geoId" });
     }
-    writeLog(`Geofence for Geofence_ID ${geoId} changed `);
+    systemLogs(`Geofence for Geofence_ID ${geoId} changed `);
     res.status(200).json({
       message: "Geofence updated successfully",
       updatedFields: updateGeo,

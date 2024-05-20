@@ -3,7 +3,7 @@ import asyncHandler from "express-async-handler";
 import axios from "axios";
 import GpsModel from "../models/GpsModel.js";
 import { isInsideGeocode } from "../services/geocodeService.js";
-import writeLog from "../utils/writeLog.js";
+import systemLogs from "../utils/systemLogs.js";
 const app = express();
 
 
@@ -16,14 +16,14 @@ const fromTraccarData = asyncHandler(async (req, res) => {
   try {
     const { id } = await isRegistered(device?.uniqueId);
     if (!id) {
-      writeLog(`${device.name}:${device?.uniqueId} does not exist in the database`);
+      systemLogs(`${device.name}:${device?.uniqueId} does not exist in the database`);
       return;
     }
 
     const location = [position.latitude, position.longitude];
     await isInsideGeocode(device?.uniqueId, id, location);
   } catch (error) {
-    writeLog(error.message);
+    systemLogs(error.message);
   }
 });
 
@@ -41,9 +41,9 @@ const sendToLaravel = async (data) => {
     await axios.post(forwardUrl, data, {
       headers: { "Content-Type": "application/json" }
     });
-    writeLog("Data sent to Laravel");
+    systemLogs("Data sent to Laravel");
   } catch (error) {
-    writeLog(error.message);
+    systemLogs(error.message);
     throw new Error("Failed to send data to Laravel");
   }
 };
