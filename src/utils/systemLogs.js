@@ -6,7 +6,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const ensureLogsDirectoryAndFiles = () => {
-    const logsDirectory = path.join(__dirname, "../gps/logs");
+    const logsDirectory = path.join(__dirname, "../logs");
     const accessLogPath = path.join(logsDirectory, "access.log");
 
     if (!fs.existsSync(logsDirectory)) {

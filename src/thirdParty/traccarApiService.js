@@ -1,14 +1,12 @@
-import express from "express";
 import asyncHandler from "express-async-handler";
 import axios from "axios";
 import GpsModel from "../models/GpsModel.js";
-import { isInsideGeocode } from "../services/geocodeService.js";
+import { isInsideGeocode } from "../controllers/geocodeService.js";
 import systemLogs from "../utils/systemLogs.js";
-const app = express();
 
 
 // Handle data from Traccar server
-const fromTraccarData = asyncHandler(async (req, res) => {
+const fromTraccarData = asyncHandler(async (req) => {
   const { device, position } = req.body;
 
   if (device?.status !== "online" || !position?.protocol) return;

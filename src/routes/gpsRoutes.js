@@ -27,4 +27,6 @@ router.route("/geofence")
 router.route("/geofence/:id").patch(protect, updateGeofence);
 router.route("/geofence/:id").delete(protect, deleteGeofence);
 
+
+// TODO: TRIP & STOPS route
 export default router;

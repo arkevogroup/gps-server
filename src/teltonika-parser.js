@@ -3,7 +3,7 @@ import GpsModel from "./models/GpsModel.js";
 const args = process.argv;
 const PORT = args[2]
 import { successColGreen, errorCol, successColBlue }  from "./utils/messageColors.js"
-import {laravelCallback} from "./services/geocodeService.js";
+import {laravelCallback} from "./controllers/geocodeService.js";
 import translateData from "./controllers/translateAVL.js";
 
 class TcpClientServiceTeltonika {
@@ -30,7 +30,7 @@ class TcpClientServiceTeltonika {
       if (packet.length == 34) { 
         let imei = parseIMEI(packet)
         console.log(successColBlue("Imei Received :", imei));
-        //TODO: Check if it is primary or backup
+        //TODO: Check if it is primary or backup => Done
         let response;
         //check if imei exi
           const exist = await GpsModel.exists({ imei:imei });
@@ -48,7 +48,7 @@ class TcpClientServiceTeltonika {
             ///this is alternative imei should return alert
             let message = {
                 alert: `Device offline `,
-                message: {
+                data: {
                     imei: imei,
                     status:` Operating in backup imei`
                 }
@@ -71,12 +71,17 @@ class TcpClientServiceTeltonika {
                 let parsedData ='';
         
                 if (parsed.CodecType == "data sending"){
+                        // TODO: Check the ignition status to determine start and trip
                     parsedData = parsed.Content;
                     console.log('AVL INFO : ' + hasConnection);
                     // console.log(parsedData.AVL_Datas[0]);
                     // data fixing for each element should be mades
                     //console.log(parsedData.AVL_Datas[0]);
+
+                    // TODO: Translate AVL => Done
                     translateData(imei,parsedData.AVL_Datas[0]);
+
+
                     // parsedData.AVL_Datas.forEach(element => {
                     //     console.log(element);
                     // });

@@ -15,14 +15,15 @@ router.use(express.json());
 router.route("/traccarData").post(fromTraccarData);
 
 
-// TODO: Create a device 
+// TODO: Create a device => Done
 //This route is a protected route to handle register device req
 //When accessed, it calls the fromLaravel function.
 router.route("/traccar")
     .post(protect)
     .get(protect)
 
-
+// TODO: Get traccar TRIP
+// TODO: Get
 
 
 
