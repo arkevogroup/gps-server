@@ -1,20 +1,16 @@
 import express from "express";
-const router = express.Router();
 import {
+  createNewCommand,
   createNewGps,
   deleteGps,
-  createNewCommand,
-  getAllCommands,
   getAllAvailableDevices,
+  getAllCommands,
   sendCommandTeltonika,
 } from "../controllers/gpsController.js";
-import { protect } from "../middleware/authMiddleware.js";
-import {
-  getGeofence,
-  createNewGeofence,
-  updateGeofence,
-  deleteGeofence,
-} from "../services/geofence.js";
+import {protect} from "../middleware/authMiddleware.js";
+import {createNewGeofence, deleteGeofence, getGeofence, updateGeofence,} from "../controllers/geofence.js";
+
+const router = express.Router();
 
 
 router.route("/store").post(protect, createNewGps);

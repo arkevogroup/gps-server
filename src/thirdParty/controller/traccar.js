@@ -12,8 +12,8 @@ class TraccarApi {
   async createSession() {
     try {
       let data = qs.stringify({
-        'email': 'it.department@arkevo-group.com',
-        'password': 'Sr@ra@Q^7*SDFGd\\.'
+        'email': process.env.TRACCAR_EMAIL,
+        'password': process.env.TRACCAR_PASSWORD
       });
 
       let config = {
@@ -37,8 +37,8 @@ class TraccarApi {
   async deleteSession(sessionId) {
     try {
       let data = qs.stringify({
-        'email': 'it.department@arkevo-group.com',
-        'password': 'Sr@ra@Q^7*SDFGd\\.'
+        'email': process.env.TRACCAR_EMAIL,
+        'password': process.env.TRACCAR_PASSWORD
       });
 
       let config = {

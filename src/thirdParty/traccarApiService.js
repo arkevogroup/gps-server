@@ -49,8 +49,4 @@ const sendToLaravel = async (data) => {
 };
 
 
-
-
-
-
 export {fromTraccarData };

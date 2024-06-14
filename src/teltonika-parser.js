@@ -3,6 +3,8 @@ import GpsModel from "./models/GpsModel.js";
 const args = process.argv;
 const PORT = args[2]
 import { successColGreen, errorCol, successColBlue }  from "./utils/messageColors.js"
+import {laravelCallback} from "./services/geocodeService.js";
+import translateData from "./controllers/translateAVL.js";
 
 class TcpClientServiceTeltonika {
   constructor(client) {
@@ -28,16 +30,32 @@ class TcpClientServiceTeltonika {
       if (packet.length == 34) { 
         let imei = parseIMEI(packet)
         console.log(successColBlue("Imei Received :", imei));
+        //TODO: Check if it is primary or backup
         let response;
-        //check if imei exist on the system
-        let exist = await GpsModel.find({imei:imei}).count() > 0 ? true : false;
+        //check if imei exi
+          const exist = await GpsModel.exists({ imei:imei });
+          const is_alternate_imei = await GpsModel.exists({ alternate_imei: imei });
 
         if( exist ){
           response = Buffer.from([0x01]);
           hasConnection = true;
           await stream.write(response);
           console.log(successColGreen(`${new Date()} - responded with ${response.toString('hex')}`));
-        }else { 
+        }
+        if (is_alternate_imei){
+            await stream.write(response);
+            console.log(successColGreen(`${new Date()} - responded with ${response.toString('hex')} to backup imei`));
+            ///this is alternative imei should return alert
+            let message = {
+                alert: `Device offline `,
+                message: {
+                    imei: imei,
+                    status:` Operating in backup imei`
+                }
+            }
+            await laravelCallback(message);
+        }
+        else {
           response = Buffer.from([0x00]);
           await stream.write(response);
           stream.destroy()
@@ -57,7 +75,8 @@ class TcpClientServiceTeltonika {
                     console.log('AVL INFO : ' + hasConnection);
                     // console.log(parsedData.AVL_Datas[0]);
                     // data fixing for each element should be mades
-                    console.log(parsedData.AVL_Datas[0]);
+                    //console.log(parsedData.AVL_Datas[0]);
+                    translateData(imei,parsedData.AVL_Datas[0]);
                     // parsedData.AVL_Datas.forEach(element => {
                     //     console.log(element);
                     // });

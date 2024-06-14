@@ -3,7 +3,7 @@ import geoFenceModel from "../models/geofenceModel.js";
 import { mongoose } from "mongoose";
 import gpsModel from "../models/GpsModel.js";
 import systemLogs from "../utils/systemLogs.js";
-import validateCoordinates from "../controllers/validators/geofenceCoordValidate.js";
+import validateCoordinates from "./validators/geofenceCoordValidate.js";
 
 // @desc get geofences or geofence/:geoId per gps_id
 // @route POST /api/gps/geofence or /api/gps/geofence/:geoId
